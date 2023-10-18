@@ -1,0 +1,8 @@
+builders:
+  mimetypeListBuilder:
+    import: "package:list_gen/generators.dart"
+    builder_factories: [ "mimetypeListBuilder" ]
+    build_extensions: { ".dart" : [ ".mimetypeList.g.dart" ]}
+    auto_apply: dependents
+
+    build_to: source

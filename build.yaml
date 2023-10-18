@@ -1,0 +1,10 @@
+targets:
+  $default:
+    builders:
+      list_gen|mimetypeListBuilder:
+        enabled: true
+        options:
+          build_extensions:
+            '{{}}.mimetypeList.yaml': '{{}}.mimetypeList.dart'
+        generate_for:
+          - lib/**

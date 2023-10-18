@@ -1,0 +1,2574 @@
+lista:
+  - mimetype: 'image/jpeg'
+    minimumFileSize: 140
+    validExtensions: [ '.jpg', '.jpe', '.jpeg' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xD8, 0xFF, 0xDB ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xD8, 0xFF, 0xE0, 0x00, 0x10, 0x4A, 0x46, 0x49, 0x46, 0x00, 0x01 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xD8, 0xFF, 0xEE ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xD8, 0xFF, 0xE1 ]
+          - type: offset
+            offset: 6
+            bytes: [ 0x45, 0x78, 0x69, 0x66, 0x00, 0x00 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xD8, 0xFF, 0xE0 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x00, 0x00, 0x00, 0x0C, 0x6A, 0x50, 0x20, 0x20, 0x0D, 0x0A, 0x87, 0x0A ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0x4F, 0xFF, 0x51 ]
+  - mimetype: 'application/vnd.lotus-1-2-3'
+    minimumFileSize: 0
+    validExtensions: [ '.123' ]
+  - mimetype: 'text/vnd.in3d.3dml'
+    minimumFileSize: 0
+    validExtensions: [ '.3dml' ]
+  - mimetype: 'image/x-3ds'
+    minimumFileSize: 0
+    validExtensions: [ '.3ds' ]
+  - mimetype: 'video/3gpp2'
+    minimumFileSize: 0
+    validExtensions: [ '.3g2' ]
+  - mimetype: 'video/3gpp'
+    minimumFileSize: 0
+    validExtensions: [ '.3gp' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0xFF, 0xFF, 0xFF, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x00, 0x00, 0x00, 0x00, 0x66, 0x74, 0x79, 0x70, 0x33, 0x67, 0x70, 0x35 ]
+  - mimetype: 'application/x-7z-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.7z' ]
+  - mimetype: 'application/x-authorware-bin'
+    minimumFileSize: 0
+    validExtensions: [ '.aab', '.u32', '.vox', '.x32' ]
+  - mimetype: 'audio/x-aac'
+    minimumFileSize: 0
+    validExtensions: [ '.aac' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xF1 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xF9 ]
+  - mimetype: 'application/x-authorware-map'
+    minimumFileSize: 0
+    validExtensions: [ '.aam' ]
+  - mimetype: 'application/x-authorware-seg'
+    minimumFileSize: 0
+    validExtensions: [ '.aas' ]
+  - mimetype: 'audio/x-mpeg'
+    minimumFileSize: 0
+    validExtensions: [ '.abs', '.mp1', '.mpa', '.mpega' ]
+  - mimetype: 'application/x-abiword'
+    minimumFileSize: 0
+    validExtensions: [ '.abw' ]
+  - mimetype: 'application/pkix-attr-cert'
+    minimumFileSize: 0
+    validExtensions: [ '.ac' ]
+  - mimetype: 'application/vnd.americandynamics.acc'
+    minimumFileSize: 0
+    validExtensions: [ '.acc' ]
+  - mimetype: 'application/x-ace-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.ace' ]
+  - mimetype: 'application/vnd.acucobol'
+    minimumFileSize: 0
+    validExtensions: [ '.acu' ]
+  - mimetype: 'application/vnd.acucorp'
+    minimumFileSize: 0
+    validExtensions: [ '.acutc', '.atc' ]
+  - mimetype: 'audio/adpcm'
+    minimumFileSize: 0
+    validExtensions: [ '.adp' ]
+  - mimetype: 'application/vnd.audiograph'
+    minimumFileSize: 0
+    validExtensions: [ '.aep' ]
+  - mimetype: 'application/x-font-type1'
+    minimumFileSize: 0
+    validExtensions: [ '.afm', '.pfa', '.pfb', '.pfm' ]
+  - mimetype: 'application/vnd.ibm.modcap'
+    minimumFileSize: 0
+    validExtensions: [ '.afp', '.list3820', '.listafp' ]
+  - mimetype: 'application/vnd.ahead.space'
+    minimumFileSize: 0
+    validExtensions: [ '.ahead' ]
+  - mimetype: 'application/postscript'
+    minimumFileSize: 0
+    validExtensions: [ '.ai', '.eps', '.ps' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x25, 0x51 ]
+  - mimetype: 'audio/x-aiff'
+    minimumFileSize: 0
+    validExtensions: [ '.aif', '.aifc', '.aiff' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x46, 0x4F, 0x52, 0x4D, 0x00, 0x00, 0x00, 0x00, 0x41, 0x49, 0x46, 0x46 ]
+  - mimetype: 'application/x-aim'
+    minimumFileSize: 0
+    validExtensions: [ '.aim' ]
+  - mimetype: 'application/vnd.adobe.air-application-installer-package+zip'
+    minimumFileSize: 0
+    validExtensions: [ '.air' ]
+  - mimetype: 'application/vnd.dvb.ait'
+    minimumFileSize: 0
+    validExtensions: [ '.ait' ]
+  - mimetype: 'application/vnd.amiga.ami'
+    minimumFileSize: 0
+    validExtensions: [ '.ami' ]
+  - mimetype: 'application/annodex'
+    minimumFileSize: 0
+    validExtensions: [ '.anx' ]
+  - mimetype: 'application/vnd.android.package-archive'
+    minimumFileSize: 0
+    validExtensions: [ '.apk' ]
+  - mimetype: 'text/cache-manifest'
+    minimumFileSize: 0
+    validExtensions: [ '.appcache' ]
+  - mimetype: 'application/x-ms-application'
+    minimumFileSize: 0
+    validExtensions: [ '.application' ]
+  - mimetype: 'application/vnd.lotus-approach'
+    minimumFileSize: 0
+    validExtensions: [ '.apr' ]
+  - mimetype: 'application/x-freearc'
+    minimumFileSize: 0
+    validExtensions: [ '.arc' ]
+  - mimetype: 'image/x-jg'
+    minimumFileSize: 0
+    validExtensions: [ '.art' ]
+  - mimetype: 'application/pgp-signature'
+    minimumFileSize: 0
+    validExtensions: [ '.asc', '.sig' ]
+  - mimetype: 'video/x-ms-asf'
+    minimumFileSize: 0
+    validExtensions: [ '.asf', '.asx' ]
+  - mimetype: 'text/x-asm'
+    minimumFileSize: 0
+    validExtensions: [ '.asm', '.s' ]
+  - mimetype: 'application/vnd.accpac.simply.aso'
+    minimumFileSize: 0
+    validExtensions: [ '.aso' ]
+  - mimetype: 'application/atom+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.atom' ]
+  - mimetype: 'application/atomcat+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.atomcat' ]
+  - mimetype: 'application/atomsvc+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.atomsvc' ]
+  - mimetype: 'application/vnd.antix.game-component'
+    minimumFileSize: 0
+    validExtensions: [ '.atx' ]
+  - mimetype: 'audio/basic'
+    minimumFileSize: 0
+    validExtensions: [ '.au', '.snd', '.ulw' ]
+  - mimetype: 'video/x-msvideo'
+    minimumFileSize: 0
+    validExtensions: [ '.avi' ]
+  - mimetype: 'video/avs'
+    minimumFileSize: 0
+    validExtensions: [ '.avs' ]
+  - mimetype: 'video/x-rad-screenplay'
+    minimumFileSize: 0
+    validExtensions: [ '.avx' ]
+  - mimetype: 'application/applixware'
+    minimumFileSize: 0
+    validExtensions: [ '.aw' ]
+  - mimetype: 'audio/annodex'
+    minimumFileSize: 0
+    validExtensions: [ '.axa' ]
+  - mimetype: 'video/annodex'
+    minimumFileSize: 0
+    validExtensions: [ '.axv' ]
+  - mimetype: 'application/vnd.airzip.filesecure.azf'
+    minimumFileSize: 0
+    validExtensions: [ '.azf' ]
+  - mimetype: 'application/vnd.airzip.filesecure.azs'
+    minimumFileSize: 0
+    validExtensions: [ '.azs' ]
+  - mimetype: 'application/vnd.amazon.ebook'
+    minimumFileSize: 0
+    validExtensions: [ '.azw' ]
+  - mimetype: 'application/x-msdownload'
+    minimumFileSize: 0
+    validExtensions: [ '.bat', '.com', '.dll', '.exe', '.msi' ]
+  - mimetype: 'application/x-bcpio'
+    minimumFileSize: 0
+    validExtensions: [ '.bcpio' ]
+  - mimetype: 'application/x-font-bdf'
+    minimumFileSize: 0
+    validExtensions: [ '.bdf' ]
+  - mimetype: 'application/vnd.syncml.dm+wbxml'
+    minimumFileSize: 0
+    validExtensions: [ '.bdm' ]
+  - mimetype: 'application/vnd.realvnc.bed'
+    minimumFileSize: 0
+    validExtensions: [ '.bed' ]
+  - mimetype: 'application/vnd.fujitsu.oasysprs'
+    minimumFileSize: 0
+    validExtensions: [ '.bh2' ]
+  - mimetype: 'application/octet-stream'
+    minimumFileSize: 0
+    validExtensions: [ '.bin', '.bpk', '.deploy', '.dist', '.distz', '.dms', '.dump', '.elc', '.lrf', '.mar', '.pkg', '.so' ]
+  - mimetype: 'application/x-blorb'
+    minimumFileSize: 0
+    validExtensions: [ '.blb', '.blorb' ]
+  - mimetype: 'application/vnd.bmi'
+    minimumFileSize: 0
+    validExtensions: [ '.bmi' ]
+  - mimetype: 'image/bmp'
+    minimumFileSize: 0
+    validExtensions: [ '.bmp', '.dib' ]
+  - mimetype: 'text/html'
+    minimumFileSize: 0
+    validExtensions: [ '.body', '.htm', '.html' ]
+  - mimetype: 'application/vnd.framemaker'
+    minimumFileSize: 0
+    validExtensions: [ '.book', '.fm', '.frame', '.maker' ]
+  - mimetype: 'application/vnd.previewsystems.box'
+    minimumFileSize: 0
+    validExtensions: [ '.box' ]
+  - mimetype: 'application/x-bzip2'
+    minimumFileSize: 0
+    validExtensions: [ '.boz', '.bz2' ]
+  - mimetype: 'image/prs.btif'
+    minimumFileSize: 0
+    validExtensions: [ '.btif' ]
+  - mimetype: 'audio/x-wav'
+    minimumFileSize: 0
+    validExtensions: [ '.bwf', '.wav' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x52, 0x49, 0x46, 0x46, 0x00, 0x00, 0x00, 0x00, 0x57, 0x41, 0x56, 0x45 ]
+  - mimetype: 'application/x-bzip'
+    minimumFileSize: 0
+    validExtensions: [ '.bz' ]
+  - mimetype: 'text/x-c'
+    minimumFileSize: 0
+    validExtensions: [ '.c', '.cc', '.cpp', '.cxx', '.dic', '.h', '.hh' ]
+  - mimetype: 'application/vnd.cluetrust.cartomobile-config'
+    minimumFileSize: 0
+    validExtensions: [ '.c11amc' ]
+  - mimetype: 'application/vnd.cluetrust.cartomobile-config-pkg'
+    minimumFileSize: 0
+    validExtensions: [ '.c11amz' ]
+  - mimetype: 'application/vnd.clonk.c4group'
+    minimumFileSize: 0
+    validExtensions: [ '.c4d', '.c4f', '.c4g', '.c4p', '.c4u' ]
+  - mimetype: 'application/vnd.ms-cab-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.cab' ]
+  - mimetype: 'audio/x-caf'
+    minimumFileSize: 0
+    validExtensions: [ '.caf' ]
+  - mimetype: 'application/vnd.tcpdump.pcap'
+    minimumFileSize: 0
+    validExtensions: [ '.cap', '.dmp', '.pcap' ]
+  - mimetype: 'application/vnd.curl.car'
+    minimumFileSize: 0
+    validExtensions: [ '.car' ]
+  - mimetype: 'application/vnd.ms-pki.seccat'
+    minimumFileSize: 0
+    validExtensions: [ '.cat' ]
+  - mimetype: 'application/x-cbr'
+    minimumFileSize: 0
+    validExtensions: [ '.cb7', '.cba', '.cbr', '.cbt', '.cbz' ]
+  - mimetype: 'application/x-director'
+    minimumFileSize: 0
+    validExtensions: [ '.cct', '.cst', '.cxt', '.dcr', '.dir', '.dxr', '.fgd', '.swa', '.w3d' ]
+  - mimetype: 'application/ccxml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.ccxml' ]
+  - mimetype: 'application/vnd.contact.cmsg'
+    minimumFileSize: 0
+    validExtensions: [ '.cdbcmsg' ]
+  - mimetype: 'audio/aiff'
+    minimumFileSize: 0
+    validExtensions: [ '.cdda' ]
+  - mimetype: 'application/x-netcdf'
+    minimumFileSize: 0
+    validExtensions: [ '.cdf', '.nc' ]
+  - mimetype: 'application/vnd.mediastation.cdkey'
+    minimumFileSize: 0
+    validExtensions: [ '.cdkey' ]
+  - mimetype: 'application/cdmi-capability'
+    minimumFileSize: 0
+    validExtensions: [ '.cdmia' ]
+  - mimetype: 'application/cdmi-container'
+    minimumFileSize: 0
+    validExtensions: [ '.cdmic' ]
+  - mimetype: 'application/cdmi-domain'
+    minimumFileSize: 0
+    validExtensions: [ '.cdmid' ]
+  - mimetype: 'application/cdmi-object'
+    minimumFileSize: 0
+    validExtensions: [ '.cdmio' ]
+  - mimetype: 'application/cdmi-queue'
+    minimumFileSize: 0
+    validExtensions: [ '.cdmiq' ]
+  - mimetype: 'chemical/x-cdx'
+    minimumFileSize: 0
+    validExtensions: [ '.cdx' ]
+  - mimetype: 'application/vnd.chemdraw+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.cdxml' ]
+  - mimetype: 'application/vnd.cinderella'
+    minimumFileSize: 0
+    validExtensions: [ '.cdy' ]
+  - mimetype: 'application/pkix-cert'
+    minimumFileSize: 0
+    validExtensions: [ '.cer' ]
+  - mimetype: 'application/x-cfs-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.cfs' ]
+  - mimetype: 'image/cgm'
+    minimumFileSize: 0
+    validExtensions: [ '.cgm' ]
+  - mimetype: 'application/x-chat'
+    minimumFileSize: 0
+    validExtensions: [ '.chat' ]
+  - mimetype: 'application/vnd.ms-htmlhelp'
+    minimumFileSize: 0
+    validExtensions: [ '.chm' ]
+  - mimetype: 'application/vnd.kde.kchart'
+    minimumFileSize: 0
+    validExtensions: [ '.chrt' ]
+  - mimetype: 'chemical/x-cif'
+    minimumFileSize: 0
+    validExtensions: [ '.cif' ]
+  - mimetype: 'application/vnd.anser-web-certificate-issue-initiation'
+    minimumFileSize: 0
+    validExtensions: [ '.cii' ]
+  - mimetype: 'application/vnd.ms-artgalry'
+    minimumFileSize: 0
+    validExtensions: [ '.cil' ]
+  - mimetype: 'application/vnd.claymore'
+    minimumFileSize: 0
+    validExtensions: [ '.cla' ]
+  - mimetype: 'application/java-vm'
+    minimumFileSize: 0
+    validExtensions: [ '.class' ]
+  - mimetype: 'application/vnd.crick.clicker.keyboard'
+    minimumFileSize: 0
+    validExtensions: [ '.clkk' ]
+  - mimetype: 'application/vnd.crick.clicker.palette'
+    minimumFileSize: 0
+    validExtensions: [ '.clkp' ]
+  - mimetype: 'application/vnd.crick.clicker.template'
+    minimumFileSize: 0
+    validExtensions: [ '.clkt' ]
+  - mimetype: 'application/vnd.crick.clicker.wordbank'
+    minimumFileSize: 0
+    validExtensions: [ '.clkw' ]
+  - mimetype: 'application/vnd.crick.clicker'
+    minimumFileSize: 0
+    validExtensions: [ '.clkx' ]
+  - mimetype: 'application/x-msclip'
+    minimumFileSize: 0
+    validExtensions: [ '.clp' ]
+  - mimetype: 'application/vnd.cosmocaller'
+    minimumFileSize: 0
+    validExtensions: [ '.cmc' ]
+  - mimetype: 'chemical/x-cmdf'
+    minimumFileSize: 0
+    validExtensions: [ '.cmdf' ]
+  - mimetype: 'chemical/x-cml'
+    minimumFileSize: 0
+    validExtensions: [ '.cml' ]
+  - mimetype: 'application/vnd.yellowriver-custom-menu'
+    minimumFileSize: 0
+    validExtensions: [ '.cmp' ]
+  - mimetype: 'image/x-cmx'
+    minimumFileSize: 0
+    validExtensions: [ '.cmx' ]
+  - mimetype: 'application/vnd.rim.cod'
+    minimumFileSize: 0
+    validExtensions: [ '.cod' ]
+  - mimetype: 'text/plain'
+    minimumFileSize: 0
+    validExtensions: [ '.conf', '.def', '.in', '.jsf', '.jspf', '.list', '.log', '.text', '.txt' ]
+  - mimetype: 'application/x-cpio'
+    minimumFileSize: 0
+    validExtensions: [ '.cpio' ]
+  - mimetype: 'application/mac-compactpro'
+    minimumFileSize: 0
+    validExtensions: [ '.cpt' ]
+  - mimetype: 'application/x-mscardfile'
+    minimumFileSize: 0
+    validExtensions: [ '.crd' ]
+  - mimetype: 'music/crescendo-encrypted'
+    minimumFileSize: 0
+    validExtensions: [ '.cre' ]
+  - mimetype: 'application/pkix-crl'
+    minimumFileSize: 0
+    validExtensions: [ '.crl' ]
+  - mimetype: 'application/x-x509-ca-cert'
+    minimumFileSize: 0
+    validExtensions: [ '.crt', '.der' ]
+  - mimetype: 'application/vnd.rig.cryptonote'
+    minimumFileSize: 0
+    validExtensions: [ '.cryptonote' ]
+  - mimetype: 'application/x-csh'
+    minimumFileSize: 0
+    validExtensions: [ '.csh' ]
+  - mimetype: 'chemical/x-csml'
+    minimumFileSize: 0
+    validExtensions: [ '.csml' ]
+  - mimetype: 'application/vnd.commonspace'
+    minimumFileSize: 0
+    validExtensions: [ '.csp' ]
+  - mimetype: 'text/css'
+    minimumFileSize: 0
+    validExtensions: [ '.css' ]
+  - mimetype: 'text/csv'
+    minimumFileSize: 0
+    validExtensions: [ '.csv' ]
+  - mimetype: 'application/cu-seeme'
+    minimumFileSize: 0
+    validExtensions: [ '.cu' ]
+  - mimetype: 'text/vnd.curl'
+    minimumFileSize: 0
+    validExtensions: [ '.curl' ]
+  - mimetype: 'application/prs.cww'
+    minimumFileSize: 0
+    validExtensions: [ '.cww' ]
+  - mimetype: 'model/vnd.collada+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.dae' ]
+  - mimetype: 'application/vnd.mobius.daf'
+    minimumFileSize: 0
+    validExtensions: [ '.daf' ]
+  - mimetype: 'text/x-dart'
+    minimumFileSize: 0
+    validExtensions: [ '.dart' ]
+  - mimetype: 'application/vnd.fdsn.seed'
+    minimumFileSize: 0
+    validExtensions: [ '.dataless', '.seed' ]
+  - mimetype: 'application/davmount+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.davmount' ]
+  - mimetype: 'application/docbook+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.dbk' ]
+  - mimetype: 'text/vnd.curl.dcurl'
+    minimumFileSize: 0
+    validExtensions: [ '.dcurl' ]
+  - mimetype: 'application/vnd.oma.dd2+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.dd2' ]
+  - mimetype: 'application/vnd.fujixerox.ddd'
+    minimumFileSize: 0
+    validExtensions: [ '.ddd' ]
+  - mimetype: 'application/x-debian-package'
+    minimumFileSize: 0
+    validExtensions: [ '.deb', '.udeb' ]
+  - mimetype: 'application/vnd.dreamfactory'
+    minimumFileSize: 0
+    validExtensions: [ '.dfac' ]
+  - mimetype: 'application/x-dgc-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.dgc' ]
+  - mimetype: 'application/vnd.mobius.dis'
+    minimumFileSize: 0
+    validExtensions: [ '.dis' ]
+  - mimetype: 'image/vnd.djvu'
+    minimumFileSize: 0
+    validExtensions: [ '.djv', '.djvu' ]
+  - mimetype: 'application/x-apple-diskimage'
+    minimumFileSize: 0
+    validExtensions: [ '.dmg' ]
+  - mimetype: 'application/vnd.dna'
+    minimumFileSize: 0
+    validExtensions: [ '.dna' ]
+  - mimetype: 'application/msword'
+    minimumFileSize: 0
+    validExtensions: [ '.doc', '.dot' ]
+  - mimetype: 'application/vnd.ms-word.document.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.docm' ]
+  - mimetype: 'application/vnd.google-apps.document'
+    minimumFileSize: 0
+    validExtensions: [ '.docs', '.gdoc' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+    minimumFileSize: 0
+    validExtensions: [ '.docx' ]
+  - mimetype: 'application/vnd.ms-word.template.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.dotm' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.template'
+    minimumFileSize: 0
+    validExtensions: [ '.dotx' ]
+  - mimetype: 'application/vnd.osgi.dp'
+    minimumFileSize: 0
+    validExtensions: [ '.dp' ]
+  - mimetype: 'application/vnd.dpgraph'
+    minimumFileSize: 0
+    validExtensions: [ '.dpg' ]
+  - mimetype: 'audio/vnd.dra'
+    minimumFileSize: 0
+    validExtensions: [ '.dra' ]
+  - mimetype: 'text/prs.lines.tag'
+    minimumFileSize: 0
+    validExtensions: [ '.dsc' ]
+  - mimetype: 'application/dssc+der'
+    minimumFileSize: 0
+    validExtensions: [ '.dssc' ]
+  - mimetype: 'application/x-dtbook+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.dtb' ]
+  - mimetype: 'application/xml-dtd'
+    minimumFileSize: 0
+    validExtensions: [ '.dtd' ]
+  - mimetype: 'audio/vnd.dts'
+    minimumFileSize: 0
+    validExtensions: [ '.dts' ]
+  - mimetype: 'audio/vnd.dts.hd'
+    minimumFileSize: 0
+    validExtensions: [ '.dtshd' ]
+  - mimetype: 'video/x-dv'
+    minimumFileSize: 0
+    validExtensions: [ '.dv' ]
+  - mimetype: 'video/vnd.dvb.file'
+    minimumFileSize: 0
+    validExtensions: [ '.dvb' ]
+  - mimetype: 'application/x-dvi'
+    minimumFileSize: 0
+    validExtensions: [ '.dvi' ]
+  - mimetype: 'model/vnd.dwf'
+    minimumFileSize: 0
+    validExtensions: [ '.dwf' ]
+  - mimetype: 'image/vnd.dwg'
+    minimumFileSize: 0
+    validExtensions: [ '.dwg' ]
+  - mimetype: 'image/vnd.dxf'
+    minimumFileSize: 0
+    validExtensions: [ '.dxf' ]
+  - mimetype: 'application/vnd.spotfire.dxp'
+    minimumFileSize: 0
+    validExtensions: [ '.dxp' ]
+  - mimetype: 'audio/vnd.nuera.ecelp4800'
+    minimumFileSize: 0
+    validExtensions: [ '.ecelp4800' ]
+  - mimetype: 'audio/vnd.nuera.ecelp7470'
+    minimumFileSize: 0
+    validExtensions: [ '.ecelp7470' ]
+  - mimetype: 'audio/vnd.nuera.ecelp9600'
+    minimumFileSize: 0
+    validExtensions: [ '.ecelp9600' ]
+  - mimetype: 'application/ecmascript'
+    minimumFileSize: 0
+    validExtensions: [ '.ecma' ]
+  - mimetype: 'application/vnd.novadigm.edm'
+    minimumFileSize: 0
+    validExtensions: [ '.edm' ]
+  - mimetype: 'application/vnd.novadigm.edx'
+    minimumFileSize: 0
+    validExtensions: [ '.edx' ]
+  - mimetype: 'application/vnd.picsel'
+    minimumFileSize: 0
+    validExtensions: [ '.efif' ]
+  - mimetype: 'application/vnd.pg.osasli'
+    minimumFileSize: 0
+    validExtensions: [ '.ei6' ]
+  - mimetype: 'application/x-msmetafile'
+    minimumFileSize: 0
+    validExtensions: [ '.emf', '.emz', '.wmf' ]
+  - mimetype: 'message/rfc822'
+    minimumFileSize: 0
+    validExtensions: [ '.eml', '.mime' ]
+  - mimetype: 'application/emma+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.emma' ]
+  - mimetype: 'video/mpeg'
+    minimumFileSize: 0
+    validExtensions: [ '.enc', '.m1v', '.m2v', '.mpe', '.mpeg', '.mpg' ]
+  - mimetype: 'audio/vnd.digital-winds'
+    minimumFileSize: 0
+    validExtensions: [ '.eol' ]
+  - mimetype: 'application/vnd.ms-fontobject'
+    minimumFileSize: 0
+    validExtensions: [ '.eot' ]
+  - mimetype: 'application/epub+zip'
+    minimumFileSize: 0
+    validExtensions: [ '.epub' ]
+  - mimetype: 'application/vnd.eszigno3+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.es3', '.et3' ]
+  - mimetype: 'application/vnd.osgi.subsystem'
+    minimumFileSize: 0
+    validExtensions: [ '.esa' ]
+  - mimetype: 'application/vnd.epson.esf'
+    minimumFileSize: 0
+    validExtensions: [ '.esf' ]
+  - mimetype: 'text/x-setext'
+    minimumFileSize: 0
+    validExtensions: [ '.etx' ]
+  - mimetype: 'application/x-eva'
+    minimumFileSize: 0
+    validExtensions: [ '.eva' ]
+  - mimetype: 'application/x-envoy'
+    minimumFileSize: 0
+    validExtensions: [ '.evy' ]
+  - mimetype: 'application/exi'
+    minimumFileSize: 0
+    validExtensions: [ '.exi' ]
+  - mimetype: 'application/vnd.novadigm.ext'
+    minimumFileSize: 0
+    validExtensions: [ '.ext' ]
+  - mimetype: 'application/andrew-inset'
+    minimumFileSize: 0
+    validExtensions: [ '.ez' ]
+  - mimetype: 'application/vnd.ezpix-album'
+    minimumFileSize: 0
+    validExtensions: [ '.ez2' ]
+  - mimetype: 'application/vnd.ezpix-package'
+    minimumFileSize: 0
+    validExtensions: [ '.ez3' ]
+  - mimetype: 'text/x-fortran'
+    minimumFileSize: 0
+    validExtensions: [ '.f', '.f77', '.f90', '.for' ]
+  - mimetype: 'video/x-f4v'
+    minimumFileSize: 0
+    validExtensions: [ '.f4v' ]
+  - mimetype: 'image/vnd.fastbidsheet'
+    minimumFileSize: 0
+    validExtensions: [ '.fbs' ]
+  - mimetype: 'application/vnd.adobe.formscentral.fcdt'
+    minimumFileSize: 0
+    validExtensions: [ '.fcdt' ]
+  - mimetype: 'application/vnd.isac.fcs'
+    minimumFileSize: 0
+    validExtensions: [ '.fcs' ]
+  - mimetype: 'application/vnd.fdf'
+    minimumFileSize: 0
+    validExtensions: [ '.fdf' ]
+  - mimetype: 'application/vnd.denovo.fcselayout-link'
+    minimumFileSize: 0
+    validExtensions: [ '.fe_launch' ]
+  - mimetype: 'application/vnd.fujitsu.oasysgp'
+    minimumFileSize: 0
+    validExtensions: [ '.fg5' ]
+  - mimetype: 'image/x-freehand'
+    minimumFileSize: 0
+    validExtensions: [ '.fh', '.fh4', '.fh5', '.fh7', '.fhc' ]
+  - mimetype: 'application/x-xfig'
+    minimumFileSize: 0
+    validExtensions: [ '.fig' ]
+  - mimetype: 'audio/x-flac'
+    minimumFileSize: 0
+    validExtensions: [ '.flac' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x66, 0x4C, 0x61, 0x43 ]
+  - mimetype: 'video/flc'
+    minimumFileSize: 0
+    validExtensions: [ '.flc' ]
+  - mimetype: 'video/x-fli'
+    minimumFileSize: 0
+    validExtensions: [ '.fli' ]
+  - mimetype: 'application/vnd.micrografx.flo'
+    minimumFileSize: 0
+    validExtensions: [ '.flo' ]
+  - mimetype: 'video/x-flv'
+    minimumFileSize: 0
+    validExtensions: [ '.flv' ]
+  - mimetype: 'application/vnd.kde.kivio'
+    minimumFileSize: 0
+    validExtensions: [ '.flw' ]
+  - mimetype: 'text/vnd.fmi.flexstor'
+    minimumFileSize: 0
+    validExtensions: [ '.flx' ]
+  - mimetype: 'text/vnd.fly'
+    minimumFileSize: 0
+    validExtensions: [ '.fly' ]
+  - mimetype: 'application/vnd.frogans.fnc'
+    minimumFileSize: 0
+    validExtensions: [ '.fnc' ]
+  - mimetype: 'image/vnd.fpx'
+    minimumFileSize: 0
+    validExtensions: [ '.fpx' ]
+  - mimetype: 'application/vnd.fsc.weblaunch'
+    minimumFileSize: 0
+    validExtensions: [ '.fsc' ]
+  - mimetype: 'image/vnd.fst'
+    minimumFileSize: 0
+    validExtensions: [ '.fst' ]
+  - mimetype: 'application/vnd.fluxtime.clip'
+    minimumFileSize: 0
+    validExtensions: [ '.ftc' ]
+  - mimetype: 'application/vnd.anser-web-funds-transfer-initiation'
+    minimumFileSize: 0
+    validExtensions: [ '.fti' ]
+  - mimetype: 'video/isivideo'
+    minimumFileSize: 0
+    validExtensions: [ '.fvi' ]
+  - mimetype: 'video/vnd.fvt'
+    minimumFileSize: 0
+    validExtensions: [ '.fvt' ]
+  - mimetype: 'application/vnd.adobe.fxp'
+    minimumFileSize: 0
+    validExtensions: [ '.fxp', '.fxpl' ]
+  - mimetype: 'application/vnd.fuzzysheet'
+    minimumFileSize: 0
+    validExtensions: [ '.fzs' ]
+  - mimetype: 'application/vnd.geoplan'
+    minimumFileSize: 0
+    validExtensions: [ '.g2w' ]
+  - mimetype: 'image/g3fax'
+    minimumFileSize: 0
+    validExtensions: [ '.g3' ]
+  - mimetype: 'application/vnd.geospace'
+    minimumFileSize: 0
+    validExtensions: [ '.g3w' ]
+  - mimetype: 'application/vnd.groove-account'
+    minimumFileSize: 0
+    validExtensions: [ '.gac' ]
+  - mimetype: 'application/x-tads'
+    minimumFileSize: 0
+    validExtensions: [ '.gam' ]
+  - mimetype: 'application/rpki-ghostbusters'
+    minimumFileSize: 0
+    validExtensions: [ '.gbr' ]
+  - mimetype: 'application/x-gca-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.gca' ]
+  - mimetype: 'model/vnd.gdl'
+    minimumFileSize: 0
+    validExtensions: [ '.gdl' ]
+  - mimetype: 'application/vnd.google-apps.drawing'
+    minimumFileSize: 0
+    validExtensions: [ '.gdraw' ]
+  - mimetype: 'application/vnd.dynageo'
+    minimumFileSize: 0
+    validExtensions: [ '.geo' ]
+  - mimetype: 'application/vnd.geometry-explorer'
+    minimumFileSize: 0
+    validExtensions: [ '.gex', '.gre' ]
+  - mimetype: 'application/vnd.geogebra.file'
+    minimumFileSize: 0
+    validExtensions: [ '.ggb' ]
+  - mimetype: 'application/vnd.geogebra.tool'
+    minimumFileSize: 0
+    validExtensions: [ '.ggt' ]
+  - mimetype: 'application/vnd.groove-help'
+    minimumFileSize: 0
+    validExtensions: [ '.ghf' ]
+  - mimetype: 'image/gif'
+    minimumFileSize: 0
+    validExtensions: [ '.gif' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x47, 0x49, 0x46, 0x38, 0x37, 0x61 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x47, 0x49, 0x46, 0x38, 0x39, 0x61 ]
+  - mimetype: 'application/vnd.groove-identity-message'
+    minimumFileSize: 0
+    validExtensions: [ '.gim' ]
+  - mimetype: 'model/gltf-binary'
+    minimumFileSize: 0
+    validExtensions: [ '.glb' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x46, 0x54, 0x6C, 0x67 ]
+  - mimetype: 'model/gltf+json'
+    minimumFileSize: 0
+    validExtensions: [ '.gltf' ]
+  - mimetype: 'application/gml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.gml' ]
+  - mimetype: 'application/vnd.gmx'
+    minimumFileSize: 0
+    validExtensions: [ '.gmx' ]
+  - mimetype: 'application/x-gnumeric'
+    minimumFileSize: 0
+    validExtensions: [ '.gnumeric' ]
+  - mimetype: 'application/vnd.flographit'
+    minimumFileSize: 0
+    validExtensions: [ '.gph' ]
+  - mimetype: 'application/gpx+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.gpx' ]
+  - mimetype: 'application/vnd.grafeq'
+    minimumFileSize: 0
+    validExtensions: [ '.gqf', '.gqs' ]
+  - mimetype: 'application/srgs'
+    minimumFileSize: 0
+    validExtensions: [ '.gram' ]
+  - mimetype: 'application/x-gramps-xml'
+    minimumFileSize: 0
+    validExtensions: [ '.gramps' ]
+  - mimetype: 'application/vnd.groove-injector'
+    minimumFileSize: 0
+    validExtensions: [ '.grv' ]
+  - mimetype: 'application/srgs+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.grxml' ]
+  - mimetype: 'application/x-font-ghostscript'
+    minimumFileSize: 0
+    validExtensions: [ '.gsf' ]
+  - mimetype: 'application/vnd.google-apps.spreadsheet'
+    minimumFileSize: 0
+    validExtensions: [ '.gsheet', '.spreadsheets' ]
+  - mimetype: 'application/vnd.google-apps.presentation'
+    minimumFileSize: 0
+    validExtensions: [ '.gslide', '.slides' ]
+  - mimetype: 'audio/x-gsm'
+    minimumFileSize: 0
+    validExtensions: [ '.gsm' ]
+  - mimetype: 'application/x-gtar'
+    minimumFileSize: 0
+    validExtensions: [ '.gtar' ]
+  - mimetype: 'application/vnd.groove-tool-message'
+    minimumFileSize: 0
+    validExtensions: [ '.gtm' ]
+  - mimetype: 'model/vnd.gtw'
+    minimumFileSize: 0
+    validExtensions: [ '.gtw' ]
+  - mimetype: 'text/vnd.graphviz'
+    minimumFileSize: 0
+    validExtensions: [ '.gv' ]
+  - mimetype: 'application/gxf'
+    minimumFileSize: 0
+    validExtensions: [ '.gxf' ]
+  - mimetype: 'application/vnd.geonext'
+    minimumFileSize: 0
+    validExtensions: [ '.gxt' ]
+  - mimetype: 'application/x-gzip'
+    minimumFileSize: 0
+    validExtensions: [ '.gz', '.gzip' ]
+  - mimetype: 'video/h261'
+    minimumFileSize: 0
+    validExtensions: [ '.h261' ]
+  - mimetype: 'video/h263'
+    minimumFileSize: 0
+    validExtensions: [ '.h263' ]
+  - mimetype: 'video/h264'
+    minimumFileSize: 0
+    validExtensions: [ '.h264' ]
+  - mimetype: 'application/vnd.hal+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.hal' ]
+  - mimetype: 'application/vnd.hbci'
+    minimumFileSize: 0
+    validExtensions: [ '.hbci' ]
+  - mimetype: 'application/x-hdf'
+    minimumFileSize: 0
+    validExtensions: [ '.hdf' ]
+  - mimetype: 'text/x-hdml'
+    minimumFileSize: 0
+    validExtensions: [ '.hdml' ]
+  - mimetype: 'image/heic'
+    minimumFileSize: 0
+    validExtensions: [ '.heic' ]
+  - mimetype: 'image/heif'
+    minimumFileSize: 0
+    validExtensions: [ '.heif' ]
+  - mimetype: 'video/mp4'
+    minimumFileSize: 0
+    validExtensions: [ '.hevc', '.mp4', '.mp4v', '.mpg4' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x00, 0x00, 0x00, 0x00, 0x66, 0x74, 0x79, 0x70, 0x61, 0x76, 0x63, 0x31 ]
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x00, 0x00, 0x00, 0x00, 0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6F, 0x32 ]
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x00, 0x00, 0x00, 0x00, 0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6F, 0x6D ]
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x00, 0x00, 0x00, 0x00, 0x66, 0x74, 0x79, 0x70, 0x6D, 0x70, 0x34, 0x31 ]
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x00, 0x00, 0x00, 0x00, 0x66, 0x74, 0x79, 0x70, 0x6D, 0x70, 0x34, 0x32 ]
+  - mimetype: 'application/winhlp'
+    minimumFileSize: 0
+    validExtensions: [ '.hlp' ]
+  - mimetype: 'application/vnd.hp-hpgl'
+    minimumFileSize: 0
+    validExtensions: [ '.hpgl' ]
+  - mimetype: 'application/vnd.hp-hpid'
+    minimumFileSize: 0
+    validExtensions: [ '.hpid' ]
+  - mimetype: 'application/vnd.hp-hps'
+    minimumFileSize: 0
+    validExtensions: [ '.hps' ]
+  - mimetype: 'application/mac-binhex40'
+    minimumFileSize: 0
+    validExtensions: [ '.hqx' ]
+  - mimetype: 'text/x-component'
+    minimumFileSize: 0
+    validExtensions: [ '.htc' ]
+  - mimetype: 'application/vnd.kenameaapp'
+    minimumFileSize: 0
+    validExtensions: [ '.htke' ]
+  - mimetype: 'application/vnd.yamaha.hv-dic'
+    minimumFileSize: 0
+    validExtensions: [ '.hvd' ]
+  - mimetype: 'application/vnd.yamaha.hv-voice'
+    minimumFileSize: 0
+    validExtensions: [ '.hvp' ]
+  - mimetype: 'application/vnd.yamaha.hv-script'
+    minimumFileSize: 0
+    validExtensions: [ '.hvs' ]
+  - mimetype: 'application/vnd.intergeo'
+    minimumFileSize: 0
+    validExtensions: [ '.i2g' ]
+  - mimetype: 'application/vnd.iccprofile'
+    minimumFileSize: 0
+    validExtensions: [ '.icc', '.icm' ]
+  - mimetype: 'x-conference/x-cooltalk'
+    minimumFileSize: 0
+    validExtensions: [ '.ice' ]
+  - mimetype: 'image/x-icon'
+    minimumFileSize: 0
+    validExtensions: [ '.ico' ]
+  - mimetype: 'text/calendar'
+    minimumFileSize: 0
+    validExtensions: [ '.ics', '.ifb' ]
+  - mimetype: 'image/ief'
+    minimumFileSize: 0
+    validExtensions: [ '.ief' ]
+  - mimetype: 'application/vnd.shana.informed.formdata'
+    minimumFileSize: 0
+    validExtensions: [ '.ifm' ]
+  - mimetype: 'model/iges'
+    minimumFileSize: 0
+    validExtensions: [ '.iges', '.igs' ]
+  - mimetype: 'application/vnd.igloader'
+    minimumFileSize: 0
+    validExtensions: [ '.igl' ]
+  - mimetype: 'application/vnd.insors.igm'
+    minimumFileSize: 0
+    validExtensions: [ '.igm' ]
+  - mimetype: 'application/vnd.micrografx.igx'
+    minimumFileSize: 0
+    validExtensions: [ '.igx' ]
+  - mimetype: 'application/vnd.shana.informed.interchange'
+    minimumFileSize: 0
+    validExtensions: [ '.iif' ]
+  - mimetype: 'application/vnd.accpac.simply.imp'
+    minimumFileSize: 0
+    validExtensions: [ '.imp' ]
+  - mimetype: 'application/vnd.ms-ims'
+    minimumFileSize: 0
+    validExtensions: [ '.ims' ]
+  - mimetype: 'application/inkml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.ink', '.inkml' ]
+  - mimetype: 'application/x-install-instructions'
+    minimumFileSize: 0
+    validExtensions: [ '.install' ]
+  - mimetype: 'application/vnd.astraea-software.iota'
+    minimumFileSize: 0
+    validExtensions: [ '.iota' ]
+  - mimetype: 'application/ipfix'
+    minimumFileSize: 0
+    validExtensions: [ '.ipfix' ]
+  - mimetype: 'application/vnd.shana.informed.package'
+    minimumFileSize: 0
+    validExtensions: [ '.ipk' ]
+  - mimetype: 'application/vnd.ibm.rights-management'
+    minimumFileSize: 0
+    validExtensions: [ '.irm' ]
+  - mimetype: 'application/vnd.irepository.package+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.irp' ]
+  - mimetype: 'application/x-iso9660-image'
+    minimumFileSize: 0
+    validExtensions: [ '.iso' ]
+  - mimetype: 'application/vnd.shana.informed.formtemplate'
+    minimumFileSize: 0
+    validExtensions: [ '.itp' ]
+  - mimetype: 'application/vnd.immervision-ivp'
+    minimumFileSize: 0
+    validExtensions: [ '.ivp' ]
+  - mimetype: 'application/vnd.immervision-ivu'
+    minimumFileSize: 0
+    validExtensions: [ '.ivu' ]
+  - mimetype: 'text/vnd.sun.j2me.app-descriptor'
+    minimumFileSize: 0
+    validExtensions: [ '.jad' ]
+  - mimetype: 'application/vnd.jam'
+    minimumFileSize: 0
+    validExtensions: [ '.jam' ]
+  - mimetype: 'application/java-archive'
+    minimumFileSize: 0
+    validExtensions: [ '.jar', '.war' ]
+  - mimetype: 'text/x-java-source'
+    minimumFileSize: 0
+    validExtensions: [ '.java' ]
+  - mimetype: 'application/vnd.jisp'
+    minimumFileSize: 0
+    validExtensions: [ '.jisp' ]
+  - mimetype: 'application/vnd.hp-jlyt'
+    minimumFileSize: 0
+    validExtensions: [ '.jlt' ]
+  - mimetype: 'application/x-java-jnlp-file'
+    minimumFileSize: 0
+    validExtensions: [ '.jnlp' ]
+  - mimetype: 'application/vnd.joost.joda-archive'
+    minimumFileSize: 0
+    validExtensions: [ '.joda' ]
+  - mimetype: 'image/jp2'
+    minimumFileSize: 0
+    validExtensions: [ '.jp2' ]
+  - mimetype: 'video/jpm'
+    minimumFileSize: 0
+    validExtensions: [ '.jpgm', '.jpm' ]
+  - mimetype: 'video/jpeg'
+    minimumFileSize: 0
+    validExtensions: [ '.jpgv' ]
+  - mimetype: 'application/javascript'
+    minimumFileSize: 0
+    validExtensions: [ '.js', '.jsonp' ]
+  - mimetype: 'application/json'
+    minimumFileSize: 0
+    validExtensions: [ '.json' ]
+  - mimetype: 'application/jsonml+json'
+    minimumFileSize: 0
+    validExtensions: [ '.jsonml' ]
+  - mimetype: 'audio/midi'
+    minimumFileSize: 0
+    validExtensions: [ '.kar', '.mid', '.midi', '.rmi' ]
+  - mimetype: 'application/vnd.kde.karbon'
+    minimumFileSize: 0
+    validExtensions: [ '.karbon' ]
+  - mimetype: 'application/vnd.kde.kformula'
+    minimumFileSize: 0
+    validExtensions: [ '.kfo' ]
+  - mimetype: 'application/vnd.kidspiration'
+    minimumFileSize: 0
+    validExtensions: [ '.kia' ]
+  - mimetype: 'application/vnd.google-earth.kml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.kml' ]
+  - mimetype: 'application/vnd.google-earth.kmz'
+    minimumFileSize: 0
+    validExtensions: [ '.kmz' ]
+  - mimetype: 'application/vnd.kinar'
+    minimumFileSize: 0
+    validExtensions: [ '.kne', '.knp' ]
+  - mimetype: 'application/vnd.kde.kontour'
+    minimumFileSize: 0
+    validExtensions: [ '.kon' ]
+  - mimetype: 'application/vnd.kde.kpresenter'
+    minimumFileSize: 0
+    validExtensions: [ '.kpr', '.kpt' ]
+  - mimetype: 'application/vnd.ds-keypoint'
+    minimumFileSize: 0
+    validExtensions: [ '.kpxx' ]
+  - mimetype: 'application/vnd.kde.kspread'
+    minimumFileSize: 0
+    validExtensions: [ '.ksp' ]
+  - mimetype: 'application/vnd.kahootz'
+    minimumFileSize: 0
+    validExtensions: [ '.ktr', '.ktz' ]
+  - mimetype: 'image/ktx'
+    minimumFileSize: 0
+    validExtensions: [ '.ktx' ]
+  - mimetype: 'application/vnd.kde.kword'
+    minimumFileSize: 0
+    validExtensions: [ '.kwd', '.kwt' ]
+  - mimetype: 'application/vnd.las.las+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.lasxml' ]
+  - mimetype: 'application/x-latex'
+    minimumFileSize: 0
+    validExtensions: [ '.latex' ]
+  - mimetype: 'application/vnd.llamagraphics.life-balance.desktop'
+    minimumFileSize: 0
+    validExtensions: [ '.lbd' ]
+  - mimetype: 'application/vnd.llamagraphics.life-balance.exchange+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.lbe' ]
+  - mimetype: 'application/vnd.hhe.lesson-player'
+    minimumFileSize: 0
+    validExtensions: [ '.les' ]
+  - mimetype: 'application/x-lzh-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.lha', '.lzh' ]
+  - mimetype: 'application/vnd.route66.link66+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.link66' ]
+  - mimetype: 'application/x-ms-shortcut'
+    minimumFileSize: 0
+    validExtensions: [ '.lnk' ]
+  - mimetype: 'application/lost+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.lostxml' ]
+  - mimetype: 'application/vnd.ms-lrm'
+    minimumFileSize: 0
+    validExtensions: [ '.lrm' ]
+  - mimetype: 'application/vnd.frogans.ltf'
+    minimumFileSize: 0
+    validExtensions: [ '.ltf' ]
+  - mimetype: 'audio/vnd.lucent.voice'
+    minimumFileSize: 0
+    validExtensions: [ '.lvp' ]
+  - mimetype: 'application/vnd.lotus-wordpro'
+    minimumFileSize: 0
+    validExtensions: [ '.lwp' ]
+  - mimetype: 'application/x-msmediaview'
+    minimumFileSize: 0
+    validExtensions: [ '.m13', '.m14', '.mvb' ]
+  - mimetype: 'application/mp21'
+    minimumFileSize: 0
+    validExtensions: [ '.m21', '.mp21' ]
+  - mimetype: 'audio/mpeg'
+    minimumFileSize: 0
+    validExtensions: [ '.m2a', '.m3a', '.mp2', '.mp2a', '.mp3', '.mpga' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x49, 0x44, 0x33 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0xFF, 0xFB ]
+  - mimetype: 'audio/x-mpegurl'
+    minimumFileSize: 0
+    validExtensions: [ '.m3u' ]
+  - mimetype: 'application/vnd.apple.mpegurl'
+    minimumFileSize: 0
+    validExtensions: [ '.m3u8' ]
+  - mimetype: 'audio/mp4'
+    minimumFileSize: 0
+    validExtensions: [ '.m4a', '.mp4a' ]
+  - mimetype: 'video/vnd.mpegurl'
+    minimumFileSize: 0
+    validExtensions: [ '.m4u', '.mxu' ]
+  - mimetype: 'video/x-m4v'
+    minimumFileSize: 0
+    validExtensions: [ '.m4v' ]
+  - mimetype: 'application/mathematica'
+    minimumFileSize: 0
+    validExtensions: [ '.ma', '.mb', '.nb' ]
+  - mimetype: 'image/x-macpaint'
+    minimumFileSize: 0
+    validExtensions: [ '.mac', '.pnt' ]
+  - mimetype: 'application/mads+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mads' ]
+  - mimetype: 'application/vnd.ecowin.chart'
+    minimumFileSize: 0
+    validExtensions: [ '.mag' ]
+  - mimetype: 'text/troff'
+    minimumFileSize: 0
+    validExtensions: [ '.man', '.me', '.ms', '.roff', '.t', '.tr' ]
+  - mimetype: 'text/x-imagemap'
+    minimumFileSize: 0
+    validExtensions: [ '.map' ]
+  - mimetype: 'application/mathml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mathml' ]
+  - mimetype: 'application/vnd.mobius.mbk'
+    minimumFileSize: 0
+    validExtensions: [ '.mbk' ]
+  - mimetype: 'application/mbox'
+    minimumFileSize: 0
+    validExtensions: [ '.mbox' ]
+  - mimetype: 'application/vnd.medcalcdata'
+    minimumFileSize: 0
+    validExtensions: [ '.mc1' ]
+  - mimetype: 'application/vnd.mcd'
+    minimumFileSize: 0
+    validExtensions: [ '.mcd' ]
+  - mimetype: 'text/vnd.curl.mcurl'
+    minimumFileSize: 0
+    validExtensions: [ '.mcurl' ]
+  - mimetype: 'text/x-web-markdown'
+    minimumFileSize: 0
+    validExtensions: [ '.md', '.mkd' ]
+  - mimetype: 'application/x-msaccess'
+    minimumFileSize: 0
+    validExtensions: [ '.mdb' ]
+  - mimetype: 'image/vnd.ms-modi'
+    minimumFileSize: 0
+    validExtensions: [ '.mdi' ]
+  - mimetype: 'model/mesh'
+    minimumFileSize: 0
+    validExtensions: [ '.mesh', '.msh', '.silo' ]
+  - mimetype: 'application/metalink4+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.meta4' ]
+  - mimetype: 'application/metalink+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.metalink' ]
+  - mimetype: 'application/mets+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mets' ]
+  - mimetype: 'application/vnd.mfmp'
+    minimumFileSize: 0
+    validExtensions: [ '.mfm' ]
+  - mimetype: 'application/rpki-manifest'
+    minimumFileSize: 0
+    validExtensions: [ '.mft' ]
+  - mimetype: 'application/vnd.osgeo.mapguide.package'
+    minimumFileSize: 0
+    validExtensions: [ '.mgp' ]
+  - mimetype: 'application/vnd.proteus.magazine'
+    minimumFileSize: 0
+    validExtensions: [ '.mgz' ]
+  - mimetype: 'application/x-mie'
+    minimumFileSize: 0
+    validExtensions: [ '.mie' ]
+  - mimetype: 'application/vnd.mif'
+    minimumFileSize: 0
+    validExtensions: [ '.mif' ]
+  - mimetype: 'video/mj2'
+    minimumFileSize: 0
+    validExtensions: [ '.mj2', '.mjp2' ]
+  - mimetype: 'video/x-matroska'
+    minimumFileSize: 0
+    validExtensions: [ '.mk3d', '.mks', '.mkv' ]
+  - mimetype: 'audio/x-matroska'
+    minimumFileSize: 0
+    validExtensions: [ '.mka' ]
+  - mimetype: 'application/vnd.dolby.mlp'
+    minimumFileSize: 0
+    validExtensions: [ '.mlp' ]
+  - mimetype: 'application/vnd.chipnuts.karaoke-mmd'
+    minimumFileSize: 0
+    validExtensions: [ '.mmd' ]
+  - mimetype: 'application/vnd.smaf'
+    minimumFileSize: 0
+    validExtensions: [ '.mmf' ]
+  - mimetype: 'image/vnd.fujixerox.edmics-mmr'
+    minimumFileSize: 0
+    validExtensions: [ '.mmr' ]
+  - mimetype: 'video/x-mng'
+    minimumFileSize: 0
+    validExtensions: [ '.mng' ]
+  - mimetype: 'application/x-msmoney'
+    minimumFileSize: 0
+    validExtensions: [ '.mny' ]
+  - mimetype: 'application/x-mobipocket-ebook'
+    minimumFileSize: 0
+    validExtensions: [ '.mobi', '.prc' ]
+  - mimetype: 'application/mods+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mods' ]
+  - mimetype: 'video/quicktime'
+    minimumFileSize: 0
+    validExtensions: [ '.mov', '.mqv', '.qt' ]
+  - mimetype: 'video/x-sgi-movie'
+    minimumFileSize: 0
+    validExtensions: [ '.movie' ]
+  - mimetype: 'application/mp4'
+    minimumFileSize: 0
+    validExtensions: [ '.mp4s' ]
+  - mimetype: 'application/vnd.mophun.certificate'
+    minimumFileSize: 0
+    validExtensions: [ '.mpc' ]
+  - mimetype: 'application/vnd.apple.installer+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mpkg' ]
+  - mimetype: 'application/vnd.blueice.multipass'
+    minimumFileSize: 0
+    validExtensions: [ '.mpm' ]
+  - mimetype: 'application/vnd.mophun.application'
+    minimumFileSize: 0
+    validExtensions: [ '.mpn' ]
+  - mimetype: 'application/vnd.ms-project'
+    minimumFileSize: 0
+    validExtensions: [ '.mpp', '.mpt' ]
+  - mimetype: 'video/mpeg2'
+    minimumFileSize: 0
+    validExtensions: [ '.mpv2' ]
+  - mimetype: 'application/vnd.ibm.minipay'
+    minimumFileSize: 0
+    validExtensions: [ '.mpy' ]
+  - mimetype: 'application/vnd.mobius.mqy'
+    minimumFileSize: 0
+    validExtensions: [ '.mqy' ]
+  - mimetype: 'application/marc'
+    minimumFileSize: 0
+    validExtensions: [ '.mrc' ]
+  - mimetype: 'application/marcxml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mrcx' ]
+  - mimetype: 'application/mediaservercontrol+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mscml' ]
+  - mimetype: 'application/vnd.fdsn.mseed'
+    minimumFileSize: 0
+    validExtensions: [ '.mseed' ]
+  - mimetype: 'application/vnd.mseq'
+    minimumFileSize: 0
+    validExtensions: [ '.mseq' ]
+  - mimetype: 'application/vnd.epson.msf'
+    minimumFileSize: 0
+    validExtensions: [ '.msf' ]
+  - mimetype: 'application/vnd.mobius.msl'
+    minimumFileSize: 0
+    validExtensions: [ '.msl' ]
+  - mimetype: 'application/vnd.muvee.style'
+    minimumFileSize: 0
+    validExtensions: [ '.msty' ]
+  - mimetype: 'model/vnd.mts'
+    minimumFileSize: 0
+    validExtensions: [ '.mts' ]
+  - mimetype: 'application/vnd.musician'
+    minimumFileSize: 0
+    validExtensions: [ '.mus' ]
+  - mimetype: 'application/vnd.recordare.musicxml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.musicxml' ]
+  - mimetype: 'application/vnd.mfer'
+    minimumFileSize: 0
+    validExtensions: [ '.mwf' ]
+  - mimetype: 'application/mxf'
+    minimumFileSize: 0
+    validExtensions: [ '.mxf' ]
+  - mimetype: 'application/vnd.recordare.musicxml'
+    minimumFileSize: 0
+    validExtensions: [ '.mxl' ]
+  - mimetype: 'application/xv+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.mxml', '.xhvml', '.xvm', '.xvml' ]
+  - mimetype: 'application/vnd.triscape.mxs'
+    minimumFileSize: 0
+    validExtensions: [ '.mxs' ]
+  - mimetype: 'application/vnd.nokia.n-gage.symbian.install'
+    minimumFileSize: 0
+    validExtensions: [ '.n-gage' ]
+  - mimetype: 'text/n3'
+    minimumFileSize: 0
+    validExtensions: [ '.n3' ]
+  - mimetype: 'application/vnd.wolfram.player'
+    minimumFileSize: 0
+    validExtensions: [ '.nbp' ]
+  - mimetype: 'application/x-dtbncx+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.ncx' ]
+  - mimetype: 'text/x-nfo'
+    minimumFileSize: 0
+    validExtensions: [ '.nfo' ]
+  - mimetype: 'application/vnd.nokia.n-gage.data'
+    minimumFileSize: 0
+    validExtensions: [ '.ngdat' ]
+  - mimetype: 'application/vnd.nitf'
+    minimumFileSize: 0
+    validExtensions: [ '.nitf', '.ntf' ]
+  - mimetype: 'application/vnd.neurolanguage.nlu'
+    minimumFileSize: 0
+    validExtensions: [ '.nlu' ]
+  - mimetype: 'application/vnd.enliven'
+    minimumFileSize: 0
+    validExtensions: [ '.nml' ]
+  - mimetype: 'application/vnd.noblenet-directory'
+    minimumFileSize: 0
+    validExtensions: [ '.nnd' ]
+  - mimetype: 'application/vnd.noblenet-sealer'
+    minimumFileSize: 0
+    validExtensions: [ '.nns' ]
+  - mimetype: 'application/vnd.noblenet-web'
+    minimumFileSize: 0
+    validExtensions: [ '.nnw' ]
+  - mimetype: 'image/vnd.net-fpx'
+    minimumFileSize: 0
+    validExtensions: [ '.npx' ]
+  - mimetype: 'application/x-conference'
+    minimumFileSize: 0
+    validExtensions: [ '.nsc' ]
+  - mimetype: 'application/vnd.lotus-notes'
+    minimumFileSize: 0
+    validExtensions: [ '.nsf' ]
+  - mimetype: 'application/x-nzb'
+    minimumFileSize: 0
+    validExtensions: [ '.nzb' ]
+  - mimetype: 'application/vnd.fujitsu.oasys2'
+    minimumFileSize: 0
+    validExtensions: [ '.oa2' ]
+  - mimetype: 'application/vnd.fujitsu.oasys3'
+    minimumFileSize: 0
+    validExtensions: [ '.oa3' ]
+  - mimetype: 'application/vnd.fujitsu.oasys'
+    minimumFileSize: 0
+    validExtensions: [ '.oas' ]
+  - mimetype: 'application/x-msbinder'
+    minimumFileSize: 0
+    validExtensions: [ '.obd' ]
+  - mimetype: 'application/x-tgif'
+    minimumFileSize: 0
+    validExtensions: [ '.obj' ]
+  - mimetype: 'application/oda'
+    minimumFileSize: 0
+    validExtensions: [ '.oda' ]
+  - mimetype: 'application/vnd.oasis.opendocument.database'
+    minimumFileSize: 0
+    validExtensions: [ '.odb' ]
+  - mimetype: 'application/vnd.oasis.opendocument.chart'
+    minimumFileSize: 0
+    validExtensions: [ '.odc' ]
+  - mimetype: 'application/vnd.oasis.opendocument.formula'
+    minimumFileSize: 0
+    validExtensions: [ '.odf' ]
+  - mimetype: 'application/vnd.oasis.opendocument.formula-template'
+    minimumFileSize: 0
+    validExtensions: [ '.odft' ]
+  - mimetype: 'application/vnd.oasis.opendocument.graphics'
+    minimumFileSize: 0
+    validExtensions: [ '.odg' ]
+  - mimetype: 'application/vnd.oasis.opendocument.image'
+    minimumFileSize: 0
+    validExtensions: [ '.odi' ]
+  - mimetype: 'application/vnd.oasis.opendocument.text-master'
+    minimumFileSize: 0
+    validExtensions: [ '.odm' ]
+  - mimetype: 'application/vnd.oasis.opendocument.presentation'
+    minimumFileSize: 0
+    validExtensions: [ '.odp' ]
+  - mimetype: 'application/vnd.oasis.opendocument.spreadsheet'
+    minimumFileSize: 0
+    validExtensions: [ '.ods' ]
+  - mimetype: 'application/vnd.oasis.opendocument.text'
+    minimumFileSize: 0
+    validExtensions: [ '.odt' ]
+  - mimetype: 'audio/ogg'
+    minimumFileSize: 0
+    validExtensions: [ '.oga', '.ogg', '.spx' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x4F, 0x70, 0x75 ]
+  - mimetype: 'video/ogg'
+    minimumFileSize: 0
+    validExtensions: [ '.ogv' ]
+  - mimetype: 'application/ogg'
+    minimumFileSize: 0
+    validExtensions: [ '.ogx' ]
+  - mimetype: 'application/omdoc+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.omdoc' ]
+  - mimetype: 'application/onenote'
+    minimumFileSize: 0
+    validExtensions: [ '.onepkg', '.onetmp', '.onetoc', '.onetoc2' ]
+  - mimetype: 'application/oebps-package+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.opf' ]
+  - mimetype: 'text/x-opml'
+    minimumFileSize: 0
+    validExtensions: [ '.opml' ]
+  - mimetype: 'application/vnd.palm'
+    minimumFileSize: 0
+    validExtensions: [ '.oprc', '.pdb', '.pqa' ]
+  - mimetype: 'application/vnd.lotus-organizer'
+    minimumFileSize: 0
+    validExtensions: [ '.org' ]
+  - mimetype: 'application/vnd.yamaha.openscoreformat'
+    minimumFileSize: 0
+    validExtensions: [ '.osf' ]
+  - mimetype: 'application/vnd.yamaha.openscoreformat.osfpvg+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.osfpvg' ]
+  - mimetype: 'application/vnd.oasis.opendocument.chart-template'
+    minimumFileSize: 0
+    validExtensions: [ '.otc' ]
+  - mimetype: 'application/x-font-otf'
+    minimumFileSize: 0
+    validExtensions: [ '.otf' ]
+  - mimetype: 'application/vnd.oasis.opendocument.graphics-template'
+    minimumFileSize: 0
+    validExtensions: [ '.otg' ]
+  - mimetype: 'application/vnd.oasis.opendocument.text-web'
+    minimumFileSize: 0
+    validExtensions: [ '.oth' ]
+  - mimetype: 'application/vnd.oasis.opendocument.image-template'
+    minimumFileSize: 0
+    validExtensions: [ '.oti' ]
+  - mimetype: 'application/vnd.oasis.opendocument.presentation-template'
+    minimumFileSize: 0
+    validExtensions: [ '.otp' ]
+  - mimetype: 'application/vnd.oasis.opendocument.spreadsheet-template'
+    minimumFileSize: 0
+    validExtensions: [ '.ots' ]
+  - mimetype: 'application/vnd.oasis.opendocument.text-template'
+    minimumFileSize: 0
+    validExtensions: [ '.ott' ]
+  - mimetype: 'application/oxps'
+    minimumFileSize: 0
+    validExtensions: [ '.oxps' ]
+  - mimetype: 'application/vnd.openofficeorg.extension'
+    minimumFileSize: 0
+    validExtensions: [ '.oxt' ]
+  - mimetype: 'text/x-pascal'
+    minimumFileSize: 0
+    validExtensions: [ '.p', '.pas' ]
+  - mimetype: 'application/pkcs10'
+    minimumFileSize: 0
+    validExtensions: [ '.p10' ]
+  - mimetype: 'application/x-pkcs12'
+    minimumFileSize: 0
+    validExtensions: [ '.p12', '.pfx' ]
+  - mimetype: 'application/x-pkcs7-certificates'
+    minimumFileSize: 0
+    validExtensions: [ '.p7b', '.spc' ]
+  - mimetype: 'application/pkcs7-mime'
+    minimumFileSize: 0
+    validExtensions: [ '.p7c', '.p7m' ]
+  - mimetype: 'application/x-pkcs7-certreqresp'
+    minimumFileSize: 0
+    validExtensions: [ '.p7r' ]
+  - mimetype: 'application/pkcs7-signature'
+    minimumFileSize: 0
+    validExtensions: [ '.p7s' ]
+  - mimetype: 'application/pkcs8'
+    minimumFileSize: 0
+    validExtensions: [ '.p8' ]
+  - mimetype: 'application/vnd.apple.pages'
+    minimumFileSize: 0
+    validExtensions: [ '.pages' ]
+  - mimetype: 'application/vnd.pawaafile'
+    minimumFileSize: 0
+    validExtensions: [ '.paw' ]
+  - mimetype: 'application/vnd.powerbuilder6'
+    minimumFileSize: 0
+    validExtensions: [ '.pbd' ]
+  - mimetype: 'image/x-portable-bitmap'
+    minimumFileSize: 0
+    validExtensions: [ '.pbm' ]
+  - mimetype: 'image/x-photo-cd'
+    minimumFileSize: 0
+    validExtensions: [ '.pcd' ]
+  - mimetype: 'application/x-font-pcf'
+    minimumFileSize: 0
+    validExtensions: [ '.pcf' ]
+  - mimetype: 'application/vnd.hp-pcl'
+    minimumFileSize: 0
+    validExtensions: [ '.pcl' ]
+  - mimetype: 'application/vnd.hp-pclxl'
+    minimumFileSize: 0
+    validExtensions: [ '.pclxl' ]
+  - mimetype: 'image/x-pict'
+    minimumFileSize: 0
+    validExtensions: [ '.pct', '.pic' ]
+  - mimetype: 'application/vnd.curl.pcurl'
+    minimumFileSize: 0
+    validExtensions: [ '.pcurl' ]
+  - mimetype: 'image/x-pcx'
+    minimumFileSize: 0
+    validExtensions: [ '.pcx' ]
+  - mimetype: 'application/pdf'
+    minimumFileSize: 0
+    validExtensions: [ '.pdf' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x25, 0x50, 0x44, 0x46 ]
+  - mimetype: 'application/font-tdpfr'
+    minimumFileSize: 0
+    validExtensions: [ '.pfr' ]
+  - mimetype: 'image/x-portable-graymap'
+    minimumFileSize: 0
+    validExtensions: [ '.pgm' ]
+  - mimetype: 'application/x-chess-pgn'
+    minimumFileSize: 0
+    validExtensions: [ '.pgn' ]
+  - mimetype: 'application/pgp-encrypted'
+    minimumFileSize: 0
+    validExtensions: [ '.pgp' ]
+  - mimetype: 'application/x-php'
+    minimumFileSize: 0
+    validExtensions: [ '.php' ]
+  - mimetype: 'image/pict'
+    minimumFileSize: 0
+    validExtensions: [ '.pict' ]
+  - mimetype: 'application/pkixcmp'
+    minimumFileSize: 0
+    validExtensions: [ '.pki' ]
+  - mimetype: 'application/pkix-pkipath'
+    minimumFileSize: 0
+    validExtensions: [ '.pkipath' ]
+  - mimetype: 'application/vnd.3gpp.pic-bw-large'
+    minimumFileSize: 0
+    validExtensions: [ '.plb' ]
+  - mimetype: 'application/vnd.mobius.plc'
+    minimumFileSize: 0
+    validExtensions: [ '.plc' ]
+  - mimetype: 'application/vnd.pocketlearn'
+    minimumFileSize: 0
+    validExtensions: [ '.plf' ]
+  - mimetype: 'application/pls+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.pls' ]
+  - mimetype: 'application/vnd.ctc-posml'
+    minimumFileSize: 0
+    validExtensions: [ '.pml' ]
+  - mimetype: 'image/png'
+    minimumFileSize: 0
+    validExtensions: [ '.png' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A ]
+  - mimetype: 'image/x-portable-anymap'
+    minimumFileSize: 0
+    validExtensions: [ '.pnm' ]
+  - mimetype: 'application/vnd.macports.portpkg'
+    minimumFileSize: 0
+    validExtensions: [ '.portpkg' ]
+  - mimetype: 'application/vnd.ms-powerpoint'
+    minimumFileSize: 0
+    validExtensions: [ '.pot', '.ppa', '.pps', '.ppt' ]
+  - mimetype: 'application/vnd.ms-powerpoint.template.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.potm' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.template'
+    minimumFileSize: 0
+    validExtensions: [ '.potx' ]
+  - mimetype: 'application/vnd.ms-powerpoint.addin.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.ppam' ]
+  - mimetype: 'application/vnd.cups-ppd'
+    minimumFileSize: 0
+    validExtensions: [ '.ppd' ]
+  - mimetype: 'image/x-portable-pixmap'
+    minimumFileSize: 0
+    validExtensions: [ '.ppm' ]
+  - mimetype: 'application/vnd.ms-powerpoint.slideshow.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.ppsm' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.slideshow'
+    minimumFileSize: 0
+    validExtensions: [ '.ppsx' ]
+  - mimetype: 'application/vnd.ms-powerpoint.presentation.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.pptm' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+    minimumFileSize: 0
+    validExtensions: [ '.pptx' ]
+  - mimetype: 'application/vnd.lotus-freelance'
+    minimumFileSize: 0
+    validExtensions: [ '.pre' ]
+  - mimetype: 'application/pics-rules'
+    minimumFileSize: 0
+    validExtensions: [ '.prf' ]
+  - mimetype: 'application/vnd.3gpp.pic-bw-small'
+    minimumFileSize: 0
+    validExtensions: [ '.psb' ]
+  - mimetype: 'image/vnd.adobe.photoshop'
+    minimumFileSize: 0
+    validExtensions: [ '.psd' ]
+  - mimetype: 'application/x-font-linux-psf'
+    minimumFileSize: 0
+    validExtensions: [ '.psf' ]
+  - mimetype: 'application/pskc+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.pskcxml' ]
+  - mimetype: 'application/vnd.pvi.ptid1'
+    minimumFileSize: 0
+    validExtensions: [ '.ptid' ]
+  - mimetype: 'application/x-mspublisher'
+    minimumFileSize: 0
+    validExtensions: [ '.pub' ]
+  - mimetype: 'application/vnd.3gpp.pic-bw-var'
+    minimumFileSize: 0
+    validExtensions: [ '.pvb' ]
+  - mimetype: 'application/vnd.3m.post-it-notes'
+    minimumFileSize: 0
+    validExtensions: [ '.pwn' ]
+  - mimetype: 'audio/vnd.ms-playready.media.pya'
+    minimumFileSize: 0
+    validExtensions: [ '.pya' ]
+  - mimetype: 'video/vnd.ms-playready.media.pyv'
+    minimumFileSize: 0
+    validExtensions: [ '.pyv' ]
+  - mimetype: 'application/vnd.epson.quickanime'
+    minimumFileSize: 0
+    validExtensions: [ '.qam' ]
+  - mimetype: 'application/vnd.intu.qbo'
+    minimumFileSize: 0
+    validExtensions: [ '.qbo' ]
+  - mimetype: 'application/vnd.intu.qfx'
+    minimumFileSize: 0
+    validExtensions: [ '.qfx' ]
+  - mimetype: 'application/vnd.publishare-delta-tree'
+    minimumFileSize: 0
+    validExtensions: [ '.qps' ]
+  - mimetype: 'image/x-quicktime'
+    minimumFileSize: 0
+    validExtensions: [ '.qti', '.qtif' ]
+  - mimetype: 'application/vnd.quark.quarkxpress'
+    minimumFileSize: 0
+    validExtensions: [ '.qwd', '.qwt', '.qxb', '.qxd', '.qxl', '.qxt' ]
+  - mimetype: 'audio/x-pn-realaudio'
+    minimumFileSize: 0
+    validExtensions: [ '.ra', '.ram', '.rmp' ]
+  - mimetype: 'application/x-rar-compressed'
+    minimumFileSize: 0
+    validExtensions: [ '.rar' ]
+  - mimetype: 'image/x-cmu-raster'
+    minimumFileSize: 0
+    validExtensions: [ '.ras' ]
+  - mimetype: 'text/x-rat'
+    minimumFileSize: 0
+    validExtensions: [ '.rat' ]
+  - mimetype: 'application/vnd.ipunplugged.rcprofile'
+    minimumFileSize: 0
+    validExtensions: [ '.rcprofile' ]
+  - mimetype: 'application/rdf+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rdf' ]
+  - mimetype: 'application/vnd.data-vision.rdz'
+    minimumFileSize: 0
+    validExtensions: [ '.rdz' ]
+  - mimetype: 'application/vnd.businessobjects'
+    minimumFileSize: 0
+    validExtensions: [ '.rep' ]
+  - mimetype: 'application/x-dtbresource+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.res' ]
+  - mimetype: 'image/x-rgb'
+    minimumFileSize: 0
+    validExtensions: [ '.rgb' ]
+  - mimetype: 'application/reginfo+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rif' ]
+  - mimetype: 'audio/vnd.rip'
+    minimumFileSize: 0
+    validExtensions: [ '.rip' ]
+  - mimetype: 'application/x-research-info-systems'
+    minimumFileSize: 0
+    validExtensions: [ '.ris' ]
+  - mimetype: 'application/resource-lists+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rl' ]
+  - mimetype: 'image/vnd.fujixerox.edmics-rlc'
+    minimumFileSize: 0
+    validExtensions: [ '.rlc' ]
+  - mimetype: 'application/resource-lists-diff+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rld' ]
+  - mimetype: 'application/vnd.rn-realmedia'
+    minimumFileSize: 0
+    validExtensions: [ '.rm' ]
+  - mimetype: 'application/vnd.jcp.javame.midlet-rms'
+    minimumFileSize: 0
+    validExtensions: [ '.rms' ]
+  - mimetype: 'application/vnd.rn-realmedia-vbr'
+    minimumFileSize: 0
+    validExtensions: [ '.rmvb' ]
+  - mimetype: 'application/relax-ng-compact-syntax'
+    minimumFileSize: 0
+    validExtensions: [ '.rnc' ]
+  - mimetype: 'application/rpki-roa'
+    minimumFileSize: 0
+    validExtensions: [ '.roa' ]
+  - mimetype: 'application/vnd.cloanto.rp9'
+    minimumFileSize: 0
+    validExtensions: [ '.rp9' ]
+  - mimetype: 'application/vnd.nokia.radio-presets'
+    minimumFileSize: 0
+    validExtensions: [ '.rpss' ]
+  - mimetype: 'application/vnd.nokia.radio-preset'
+    minimumFileSize: 0
+    validExtensions: [ '.rpst' ]
+  - mimetype: 'application/sparql-query'
+    minimumFileSize: 0
+    validExtensions: [ '.rq' ]
+  - mimetype: 'application/rls-services+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rs' ]
+  - mimetype: 'application/rsd+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rsd' ]
+  - mimetype: 'application/rss+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.rss' ]
+  - mimetype: 'text/vnd.rn-realtext'
+    minimumFileSize: 0
+    validExtensions: [ '.rt' ]
+  - mimetype: 'application/rtf'
+    minimumFileSize: 0
+    validExtensions: [ '.rtf' ]
+  - mimetype: 'text/richtext'
+    minimumFileSize: 0
+    validExtensions: [ '.rtx' ]
+  - mimetype: 'audio/s3m'
+    minimumFileSize: 0
+    validExtensions: [ '.s3m' ]
+  - mimetype: 'application/vnd.yamaha.smaf-audio'
+    minimumFileSize: 0
+    validExtensions: [ '.saf' ]
+  - mimetype: 'application/sbml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.sbml' ]
+  - mimetype: 'application/vnd.ibm.secure-container'
+    minimumFileSize: 0
+    validExtensions: [ '.sc' ]
+  - mimetype: 'application/x-msschedule'
+    minimumFileSize: 0
+    validExtensions: [ '.scd' ]
+  - mimetype: 'application/vnd.lotus-screencam'
+    minimumFileSize: 0
+    validExtensions: [ '.scm' ]
+  - mimetype: 'application/scvp-cv-request'
+    minimumFileSize: 0
+    validExtensions: [ '.scq' ]
+  - mimetype: 'application/scvp-cv-response'
+    minimumFileSize: 0
+    validExtensions: [ '.scs' ]
+  - mimetype: 'text/vnd.curl.scurl'
+    minimumFileSize: 0
+    validExtensions: [ '.scurl' ]
+  - mimetype: 'application/vnd.stardivision.draw'
+    minimumFileSize: 0
+    validExtensions: [ '.sda' ]
+  - mimetype: 'application/vnd.stardivision.calc'
+    minimumFileSize: 0
+    validExtensions: [ '.sdc' ]
+  - mimetype: 'application/vnd.stardivision.impress'
+    minimumFileSize: 0
+    validExtensions: [ '.sdd' ]
+  - mimetype: 'application/vnd.solent.sdkm+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.sdkd', '.sdkm' ]
+  - mimetype: 'application/sdp'
+    minimumFileSize: 0
+    validExtensions: [ '.sdp' ]
+  - mimetype: 'application/vnd.stardivision.writer'
+    minimumFileSize: 0
+    validExtensions: [ '.sdw', '.vor' ]
+  - mimetype: 'application/vnd.seemail'
+    minimumFileSize: 0
+    validExtensions: [ '.see' ]
+  - mimetype: 'application/vnd.sema'
+    minimumFileSize: 0
+    validExtensions: [ '.sema' ]
+  - mimetype: 'application/vnd.semd'
+    minimumFileSize: 0
+    validExtensions: [ '.semd' ]
+  - mimetype: 'application/vnd.semf'
+    minimumFileSize: 0
+    validExtensions: [ '.semf' ]
+  - mimetype: 'application/java-serialized-object'
+    minimumFileSize: 0
+    validExtensions: [ '.ser' ]
+  - mimetype: 'application/set-payment-initiation'
+    minimumFileSize: 0
+    validExtensions: [ '.setpay' ]
+  - mimetype: 'application/set-registration-initiation'
+    minimumFileSize: 0
+    validExtensions: [ '.setreg' ]
+  - mimetype: 'application/vnd.hydrostatix.sof-data'
+    minimumFileSize: 0
+    validExtensions: [ '.sfd-hdstx' ]
+  - mimetype: 'application/vnd.spotfire.sfs'
+    minimumFileSize: 0
+    validExtensions: [ '.sfs' ]
+  - mimetype: 'text/x-sfv'
+    minimumFileSize: 0
+    validExtensions: [ '.sfv' ]
+  - mimetype: 'image/sgi'
+    minimumFileSize: 0
+    validExtensions: [ '.sgi' ]
+  - mimetype: 'application/vnd.stardivision.writer-global'
+    minimumFileSize: 0
+    validExtensions: [ '.sgl' ]
+  - mimetype: 'text/sgml'
+    minimumFileSize: 0
+    validExtensions: [ '.sgm', '.sgml' ]
+  - mimetype: 'application/x-sh'
+    minimumFileSize: 0
+    validExtensions: [ '.sh' ]
+  - mimetype: 'application/x-shar'
+    minimumFileSize: 0
+    validExtensions: [ '.shar' ]
+  - mimetype: 'application/shf+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.shf' ]
+  - mimetype: 'image/x-mrsid-image'
+    minimumFileSize: 0
+    validExtensions: [ '.sid' ]
+  - mimetype: 'audio/silk'
+    minimumFileSize: 0
+    validExtensions: [ '.sil' ]
+  - mimetype: 'application/vnd.symbian.install'
+    minimumFileSize: 0
+    validExtensions: [ '.sis', '.sisx' ]
+  - mimetype: 'application/x-stuffit'
+    minimumFileSize: 0
+    validExtensions: [ '.sit' ]
+  - mimetype: 'application/x-stuffitx'
+    minimumFileSize: 0
+    validExtensions: [ '.sitx' ]
+  - mimetype: 'application/vnd.koan'
+    minimumFileSize: 0
+    validExtensions: [ '.skd', '.skm', '.skp', '.skt' ]
+  - mimetype: 'application/vnd.ms-powerpoint.slide.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.sldm' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.slide'
+    minimumFileSize: 0
+    validExtensions: [ '.sldx' ]
+  - mimetype: 'application/vnd.epson.salt'
+    minimumFileSize: 0
+    validExtensions: [ '.slt' ]
+  - mimetype: 'application/vnd.stepmania.stepchart'
+    minimumFileSize: 0
+    validExtensions: [ '.sm' ]
+  - mimetype: 'application/vnd.stardivision.math'
+    minimumFileSize: 0
+    validExtensions: [ '.smf' ]
+  - mimetype: 'application/smil+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.smi', '.smil' ]
+  - mimetype: 'video/x-smv'
+    minimumFileSize: 0
+    validExtensions: [ '.smv' ]
+  - mimetype: 'application/vnd.stepmania.package'
+    minimumFileSize: 0
+    validExtensions: [ '.smzip' ]
+  - mimetype: 'application/x-font-snf'
+    minimumFileSize: 0
+    validExtensions: [ '.snf' ]
+  - mimetype: 'application/vnd.yamaha.smaf-phrase'
+    minimumFileSize: 0
+    validExtensions: [ '.spf' ]
+  - mimetype: 'application/x-futuresplash'
+    minimumFileSize: 0
+    validExtensions: [ '.spl' ]
+  - mimetype: 'text/vnd.in3d.spot'
+    minimumFileSize: 0
+    validExtensions: [ '.spot' ]
+  - mimetype: 'application/scvp-vp-response'
+    minimumFileSize: 0
+    validExtensions: [ '.spp' ]
+  - mimetype: 'application/scvp-vp-request'
+    minimumFileSize: 0
+    validExtensions: [ '.spq' ]
+  - mimetype: 'application/x-sql'
+    minimumFileSize: 0
+    validExtensions: [ '.sql' ]
+  - mimetype: 'application/x-wais-source'
+    minimumFileSize: 0
+    validExtensions: [ '.src' ]
+  - mimetype: 'application/x-subrip'
+    minimumFileSize: 0
+    validExtensions: [ '.srt' ]
+  - mimetype: 'application/sru+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.sru' ]
+  - mimetype: 'application/sparql-results+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.srx' ]
+  - mimetype: 'application/ssdl+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.ssdl' ]
+  - mimetype: 'application/vnd.kodak-descriptor'
+    minimumFileSize: 0
+    validExtensions: [ '.sse' ]
+  - mimetype: 'application/vnd.epson.ssf'
+    minimumFileSize: 0
+    validExtensions: [ '.ssf' ]
+  - mimetype: 'application/ssml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.ssml' ]
+  - mimetype: 'application/vnd.sailingtracker.track'
+    minimumFileSize: 0
+    validExtensions: [ '.st' ]
+  - mimetype: 'application/vnd.sun.xml.calc.template'
+    minimumFileSize: 0
+    validExtensions: [ '.stc' ]
+  - mimetype: 'application/vnd.sun.xml.draw.template'
+    minimumFileSize: 0
+    validExtensions: [ '.std' ]
+  - mimetype: 'application/vnd.wt.stf'
+    minimumFileSize: 0
+    validExtensions: [ '.stf' ]
+  - mimetype: 'application/vnd.sun.xml.impress.template'
+    minimumFileSize: 0
+    validExtensions: [ '.sti' ]
+  - mimetype: 'application/hyperstudio'
+    minimumFileSize: 0
+    validExtensions: [ '.stk' ]
+  - mimetype: 'application/vnd.ms-pki.stl'
+    minimumFileSize: 0
+    validExtensions: [ '.stl' ]
+  - mimetype: 'application/vnd.pg.format'
+    minimumFileSize: 0
+    validExtensions: [ '.str' ]
+  - mimetype: 'application/vnd.sun.xml.writer.template'
+    minimumFileSize: 0
+    validExtensions: [ '.stw' ]
+  - mimetype: 'text/vnd.dvb.subtitle'
+    minimumFileSize: 0
+    validExtensions: [ '.sub' ]
+  - mimetype: 'application/vnd.sus-calendar'
+    minimumFileSize: 0
+    validExtensions: [ '.sus', '.susp' ]
+  - mimetype: 'application/x-sv4cpio'
+    minimumFileSize: 0
+    validExtensions: [ '.sv4cpio' ]
+  - mimetype: 'application/x-sv4crc'
+    minimumFileSize: 0
+    validExtensions: [ '.sv4crc' ]
+  - mimetype: 'application/vnd.dvb.service'
+    minimumFileSize: 0
+    validExtensions: [ '.svc' ]
+  - mimetype: 'application/vnd.svd'
+    minimumFileSize: 0
+    validExtensions: [ '.svd' ]
+  - mimetype: 'image/svg+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.svg', '.svgz' ]
+  - mimetype: 'application/x-shockwave-flash'
+    minimumFileSize: 0
+    validExtensions: [ '.swf' ]
+  - mimetype: 'application/vnd.aristanetworks.swi'
+    minimumFileSize: 0
+    validExtensions: [ '.swi' ]
+  - mimetype: 'application/vnd.sun.xml.calc'
+    minimumFileSize: 0
+    validExtensions: [ '.sxc' ]
+  - mimetype: 'application/vnd.sun.xml.draw'
+    minimumFileSize: 0
+    validExtensions: [ '.sxd' ]
+  - mimetype: 'application/vnd.sun.xml.writer.global'
+    minimumFileSize: 0
+    validExtensions: [ '.sxg' ]
+  - mimetype: 'application/vnd.sun.xml.impress'
+    minimumFileSize: 0
+    validExtensions: [ '.sxi' ]
+  - mimetype: 'application/vnd.sun.xml.math'
+    minimumFileSize: 0
+    validExtensions: [ '.sxm' ]
+  - mimetype: 'application/vnd.sun.xml.writer'
+    minimumFileSize: 0
+    validExtensions: [ '.sxw' ]
+  - mimetype: 'application/x-t3vm-image'
+    minimumFileSize: 0
+    validExtensions: [ '.t3' ]
+  - mimetype: 'application/vnd.mynfc'
+    minimumFileSize: 0
+    validExtensions: [ '.taglet' ]
+  - mimetype: 'text/x-speech'
+    minimumFileSize: 0
+    validExtensions: [ '.talk' ]
+  - mimetype: 'application/vnd.tao.intent-module-archive'
+    minimumFileSize: 0
+    validExtensions: [ '.tao' ]
+  - mimetype: 'application/x-tar'
+    minimumFileSize: 0
+    validExtensions: [ '.tar', '.tgz' ]
+  - mimetype: 'image/x-targa'
+    minimumFileSize: 0
+    validExtensions: [ '.targa' ]
+  - mimetype: 'application/vnd.3gpp2.tcap'
+    minimumFileSize: 0
+    validExtensions: [ '.tcap' ]
+  - mimetype: 'application/x-tcl'
+    minimumFileSize: 0
+    validExtensions: [ '.tcl' ]
+  - mimetype: 'application/vnd.smart.teacher'
+    minimumFileSize: 0
+    validExtensions: [ '.teacher' ]
+  - mimetype: 'application/tei+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.tei', '.teicorpus' ]
+  - mimetype: 'application/x-tex'
+    minimumFileSize: 0
+    validExtensions: [ '.tex' ]
+  - mimetype: 'application/x-texinfo'
+    minimumFileSize: 0
+    validExtensions: [ '.texi', '.texinfo' ]
+  - mimetype: 'application/thraud+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.tfi' ]
+  - mimetype: 'application/x-tex-tfm'
+    minimumFileSize: 0
+    validExtensions: [ '.tfm' ]
+  - mimetype: 'image/x-tga'
+    minimumFileSize: 0
+    validExtensions: [ '.tga' ]
+  - mimetype: 'application/vnd.ms-officetheme'
+    minimumFileSize: 0
+    validExtensions: [ '.thmx' ]
+  - mimetype: 'image/tiff'
+    minimumFileSize: 0
+    validExtensions: [ '.tif', '.tiff' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x49, 0x49, 0x2A, 0x00 ]
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x4D, 0x4D, 0x00, 0x2A ]
+  - mimetype: 'application/vnd.tmobile-livetv'
+    minimumFileSize: 0
+    validExtensions: [ '.tmo' ]
+  - mimetype: 'application/x-bittorrent'
+    minimumFileSize: 0
+    validExtensions: [ '.torrent' ]
+  - mimetype: 'application/vnd.groove-tool-template'
+    minimumFileSize: 0
+    validExtensions: [ '.tpl' ]
+  - mimetype: 'application/vnd.trid.tpt'
+    minimumFileSize: 0
+    validExtensions: [ '.tpt' ]
+  - mimetype: 'application/vnd.trueapp'
+    minimumFileSize: 0
+    validExtensions: [ '.tra' ]
+  - mimetype: 'application/x-msterminal'
+    minimumFileSize: 0
+    validExtensions: [ '.trm' ]
+  - mimetype: 'application/timestamped-data'
+    minimumFileSize: 0
+    validExtensions: [ '.tsd' ]
+  - mimetype: 'text/tab-separated-values'
+    minimumFileSize: 0
+    validExtensions: [ '.tsv' ]
+  - mimetype: 'application/x-font-ttf'
+    minimumFileSize: 0
+    validExtensions: [ '.ttc', '.ttf' ]
+  - mimetype: 'text/turtle'
+    minimumFileSize: 0
+    validExtensions: [ '.ttl' ]
+  - mimetype: 'application/vnd.simtech-mindmapper'
+    minimumFileSize: 0
+    validExtensions: [ '.twd', '.twds' ]
+  - mimetype: 'application/vnd.genomatix.tuxedo'
+    minimumFileSize: 0
+    validExtensions: [ '.txd' ]
+  - mimetype: 'application/vnd.mobius.txf'
+    minimumFileSize: 0
+    validExtensions: [ '.txf' ]
+  - mimetype: 'application/vnd.ufdl'
+    minimumFileSize: 0
+    validExtensions: [ '.ufd', '.ufdl' ]
+  - mimetype: 'application/x-glulx'
+    minimumFileSize: 0
+    validExtensions: [ '.ulx' ]
+  - mimetype: 'application/vnd.umajin'
+    minimumFileSize: 0
+    validExtensions: [ '.umj' ]
+  - mimetype: 'application/vnd.unity'
+    minimumFileSize: 0
+    validExtensions: [ '.unityweb' ]
+  - mimetype: 'application/vnd.uoml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.uoml' ]
+  - mimetype: 'text/uri-list'
+    minimumFileSize: 0
+    validExtensions: [ '.uri', '.uris', '.urls' ]
+  - mimetype: 'application/x-ustar'
+    minimumFileSize: 0
+    validExtensions: [ '.ustar' ]
+  - mimetype: 'application/vnd.uiq.theme'
+    minimumFileSize: 0
+    validExtensions: [ '.utz' ]
+  - mimetype: 'text/x-uuencode'
+    minimumFileSize: 0
+    validExtensions: [ '.uu' ]
+  - mimetype: 'audio/vnd.dece.audio'
+    minimumFileSize: 0
+    validExtensions: [ '.uva', '.uvva' ]
+  - mimetype: 'application/vnd.dece.data'
+    minimumFileSize: 0
+    validExtensions: [ '.uvd', '.uvf', '.uvvd', '.uvvf' ]
+  - mimetype: 'image/vnd.dece.graphic'
+    minimumFileSize: 0
+    validExtensions: [ '.uvg', '.uvi', '.uvvg', '.uvvi' ]
+  - mimetype: 'video/vnd.dece.hd'
+    minimumFileSize: 0
+    validExtensions: [ '.uvh', '.uvvh' ]
+  - mimetype: 'video/vnd.dece.mobile'
+    minimumFileSize: 0
+    validExtensions: [ '.uvm', '.uvvm' ]
+  - mimetype: 'video/vnd.dece.pd'
+    minimumFileSize: 0
+    validExtensions: [ '.uvp', '.uvvp' ]
+  - mimetype: 'video/vnd.dece.sd'
+    minimumFileSize: 0
+    validExtensions: [ '.uvs', '.uvvs' ]
+  - mimetype: 'application/vnd.dece.ttml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.uvt', '.uvvt' ]
+  - mimetype: 'video/vnd.uvvu.mp4'
+    minimumFileSize: 0
+    validExtensions: [ '.uvu', '.uvvu' ]
+  - mimetype: 'video/vnd.dece.video'
+    minimumFileSize: 0
+    validExtensions: [ '.uvv', '.uvvv' ]
+  - mimetype: 'application/vnd.dece.unspecified'
+    minimumFileSize: 0
+    validExtensions: [ '.uvvx', '.uvx' ]
+  - mimetype: 'application/vnd.dece.zip'
+    minimumFileSize: 0
+    validExtensions: [ '.uvvz', '.uvz' ]
+  - mimetype: 'text/vcard'
+    minimumFileSize: 0
+    validExtensions: [ '.vcard' ]
+  - mimetype: 'application/x-cdlink'
+    minimumFileSize: 0
+    validExtensions: [ '.vcd' ]
+  - mimetype: 'text/x-vcard'
+    minimumFileSize: 0
+    validExtensions: [ '.vcf' ]
+  - mimetype: 'application/vnd.groove-vcard'
+    minimumFileSize: 0
+    validExtensions: [ '.vcg' ]
+  - mimetype: 'text/x-vcalendar'
+    minimumFileSize: 0
+    validExtensions: [ '.vcs' ]
+  - mimetype: 'application/vnd.vcx'
+    minimumFileSize: 0
+    validExtensions: [ '.vcx' ]
+  - mimetype: 'application/vnd.visionary'
+    minimumFileSize: 0
+    validExtensions: [ '.vis' ]
+  - mimetype: 'video/vnd.vivo'
+    minimumFileSize: 0
+    validExtensions: [ '.viv' ]
+  - mimetype: 'video/x-ms-vob'
+    minimumFileSize: 0
+    validExtensions: [ '.vob' ]
+  - mimetype: 'application/vnd.visio'
+    minimumFileSize: 0
+    validExtensions: [ '.vsd', '.vss', '.vst', '.vsw' ]
+  - mimetype: 'application/vnd.vsf'
+    minimumFileSize: 0
+    validExtensions: [ '.vsf' ]
+  - mimetype: 'model/vnd.vtu'
+    minimumFileSize: 0
+    validExtensions: [ '.vtu' ]
+  - mimetype: 'application/voicexml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.vxml' ]
+  - mimetype: 'application/x-doom'
+    minimumFileSize: 0
+    validExtensions: [ '.wad' ]
+  - mimetype: 'application/wasm'
+    minimumFileSize: 0
+    validExtensions: [ '.wasm' ]
+  - mimetype: 'audio/x-ms-wax'
+    minimumFileSize: 0
+    validExtensions: [ '.wax' ]
+  - mimetype: 'image/vnd.wap.wbmp'
+    minimumFileSize: 0
+    validExtensions: [ '.wbmp' ]
+  - mimetype: 'application/vnd.criticaltools.wbs+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.wbs' ]
+  - mimetype: 'application/vnd.wap.wbxml'
+    minimumFileSize: 0
+    validExtensions: [ '.wbxml' ]
+  - mimetype: 'application/vnd.ms-works'
+    minimumFileSize: 0
+    validExtensions: [ '.wcm', '.wdb', '.wks', '.wps' ]
+  - mimetype: 'image/vnd.ms-photo'
+    minimumFileSize: 0
+    validExtensions: [ '.wdp' ]
+  - mimetype: 'audio/webm'
+    minimumFileSize: 0
+    validExtensions: [ '.weba' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x1A, 0x45, 0xDF, 0xA3 ]
+  - mimetype: 'video/webm'
+    minimumFileSize: 0
+    validExtensions: [ '.webm' ]
+  - mimetype: 'image/webp'
+    minimumFileSize: 0
+    validExtensions: [ '.webp' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: mask
+            mask:  [ 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF ]
+            bytes: [ 0x52, 0x49, 0x46, 0x46, 0x00, 0x00, 0x00, 0x00, 0x57, 0x45, 0x42, 0x50 ]
+  - mimetype: 'application/vnd.pmi.widget'
+    minimumFileSize: 0
+    validExtensions: [ '.wg' ]
+  - mimetype: 'application/widget'
+    minimumFileSize: 0
+    validExtensions: [ '.wgt' ]
+  - mimetype: 'application/x-wlpg3-detect'
+    minimumFileSize: 0
+    validExtensions: [ '.wlpg' ]
+  - mimetype: 'video/x-ms-wm'
+    minimumFileSize: 0
+    validExtensions: [ '.wm' ]
+  - mimetype: 'audio/x-ms-wma'
+    minimumFileSize: 0
+    validExtensions: [ '.wma' ]
+  - mimetype: 'application/x-ms-wmd'
+    minimumFileSize: 0
+    validExtensions: [ '.wmd' ]
+  - mimetype: 'text/vnd.wap.wml'
+    minimumFileSize: 0
+    validExtensions: [ '.wml' ]
+  - mimetype: 'application/vnd.wap.wmlc'
+    minimumFileSize: 0
+    validExtensions: [ '.wmlc' ]
+  - mimetype: 'text/vnd.wap.wmlscript'
+    minimumFileSize: 0
+    validExtensions: [ '.wmls' ]
+  - mimetype: 'application/vnd.wap.wmlscriptc'
+    minimumFileSize: 0
+    validExtensions: [ '.wmlsc', '.wmlscriptc' ]
+  - mimetype: 'video/x-ms-wmv'
+    minimumFileSize: 0
+    validExtensions: [ '.wmv' ]
+  - mimetype: 'video/x-ms-wmx'
+    minimumFileSize: 0
+    validExtensions: [ '.wmx' ]
+  - mimetype: 'application/x-ms-wmz'
+    minimumFileSize: 0
+    validExtensions: [ '.wmz' ]
+  - mimetype: 'application/x-font-woff'
+    minimumFileSize: 0
+    validExtensions: [ '.woff' ]
+  - mimetype: 'application/font-woff2'
+    minimumFileSize: 0
+    validExtensions: [ '.woff2' ]
+    headerBytes:
+      - type: common
+        headers:
+          - type: offset
+            bytes: [ 0x77, 0x4f, 0x46, 0x32 ]
+  - mimetype: 'application/vnd.wordperfect'
+    minimumFileSize: 0
+    validExtensions: [ '.wpd' ]
+  - mimetype: 'application/vnd.ms-wpl'
+    minimumFileSize: 0
+    validExtensions: [ '.wpl' ]
+  - mimetype: 'application/vnd.wqd'
+    minimumFileSize: 0
+    validExtensions: [ '.wqd' ]
+  - mimetype: 'application/x-mswrite'
+    minimumFileSize: 0
+    validExtensions: [ '.wri' ]
+  - mimetype: 'model/vrml'
+    minimumFileSize: 0
+    validExtensions: [ '.wrl', '.vrml' ]
+  - mimetype: 'application/wsdl+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.wsdl' ]
+  - mimetype: 'application/wspolicy+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.wspolicy' ]
+  - mimetype: 'application/vnd.webturbo'
+    minimumFileSize: 0
+    validExtensions: [ '.wtb' ]
+  - mimetype: 'video/x-ms-wvx'
+    minimumFileSize: 0
+    validExtensions: [ '.wvx' ]
+  - mimetype: 'model/x3d+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.x3d', '.x3dz' ]
+  - mimetype: 'model/x3d+binary'
+    minimumFileSize: 0
+    validExtensions: [ '.x3db', '.x3dbz' ]
+  - mimetype: 'model/x3d+vrml'
+    minimumFileSize: 0
+    validExtensions: [ '.x3dv', '.x3dvz' ]
+  - mimetype: 'application/xaml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xaml' ]
+  - mimetype: 'application/x-silverlight-app'
+    minimumFileSize: 0
+    validExtensions: [ '.xap' ]
+  - mimetype: 'application/vnd.xara'
+    minimumFileSize: 0
+    validExtensions: [ '.xar' ]
+  - mimetype: 'application/x-ms-xbap'
+    minimumFileSize: 0
+    validExtensions: [ '.xbap' ]
+  - mimetype: 'application/vnd.fujixerox.docuworks.binder'
+    minimumFileSize: 0
+    validExtensions: [ '.xbd' ]
+  - mimetype: 'image/x-xbitmap'
+    minimumFileSize: 0
+    validExtensions: [ '.xbm' ]
+  - mimetype: 'application/xcap-diff+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xdf' ]
+  - mimetype: 'application/vnd.syncml.dm+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xdm' ]
+  - mimetype: 'application/vnd.adobe.xdp+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xdp' ]
+  - mimetype: 'application/dssc+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xdssc' ]
+  - mimetype: 'application/vnd.fujixerox.docuworks'
+    minimumFileSize: 0
+    validExtensions: [ '.xdw' ]
+  - mimetype: 'application/xenc+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xenc' ]
+  - mimetype: 'application/patch-ops-error+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xer' ]
+  - mimetype: 'application/vnd.adobe.xfdf'
+    minimumFileSize: 0
+    validExtensions: [ '.xfdf' ]
+  - mimetype: 'application/vnd.xfdl'
+    minimumFileSize: 0
+    validExtensions: [ '.xfdl' ]
+  - mimetype: 'application/xhtml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xht', '.xhtml' ]
+  - mimetype: 'image/vnd.xiff'
+    minimumFileSize: 0
+    validExtensions: [ '.xif' ]
+  - mimetype: 'application/vnd.ms-excel'
+    minimumFileSize: 0
+    validExtensions: [ '.xla', '.xlc', '.xlm', '.xls', '.xlsb', '.xlsm', '.xlw', '.xlt' ]
+  - mimetype: 'application/vnd.ms-excel.addin.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.xlam' ]
+  - mimetype: 'application/x-xliff+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xlf' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    minimumFileSize: 0
+    validExtensions: [ '.xlsx' ]
+  - mimetype: 'application/vnd.ms-excel.template.macroenabled.12'
+    minimumFileSize: 0
+    validExtensions: [ '.xltm' ]
+  - mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.template'
+    minimumFileSize: 0
+    validExtensions: [ '.xltx' ]
+  - mimetype: 'audio/xm'
+    minimumFileSize: 0
+    validExtensions: [ '.xm' ]
+  - mimetype: 'application/xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xml', '.xsl' ]
+  - mimetype: 'application/vnd.olpc-sugar'
+    minimumFileSize: 0
+    validExtensions: [ '.xo' ]
+  - mimetype: 'application/xop+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xop' ]
+  - mimetype: 'application/x-xpinstall'
+    minimumFileSize: 0
+    validExtensions: [ '.xpi' ]
+  - mimetype: 'application/xproc+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xpl' ]
+  - mimetype: 'image/x-xpixmap'
+    minimumFileSize: 0
+    validExtensions: [ '.xpm' ]
+  - mimetype: 'application/vnd.is-xpr'
+    minimumFileSize: 0
+    validExtensions: [ '.xpr' ]
+  - mimetype: 'application/vnd.ms-xpsdocument'
+    minimumFileSize: 0
+    validExtensions: [ '.xps' ]
+  - mimetype: 'application/vnd.intercon.formnet'
+    minimumFileSize: 0
+    validExtensions: [ '.xpw', '.xpx' ]
+  - mimetype: 'application/xslt+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xslt' ]
+  - mimetype: 'application/vnd.syncml+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xsm' ]
+  - mimetype: 'application/xspf+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xspf' ]
+  - mimetype: 'application/vnd.mozilla.xul+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.xul' ]
+  - mimetype: 'image/x-xwindowdump'
+    minimumFileSize: 0
+    validExtensions: [ '.xwd' ]
+  - mimetype: 'chemical/x-xyz'
+    minimumFileSize: 0
+    validExtensions: [ '.xyz' ]
+  - mimetype: 'application/x-xz'
+    minimumFileSize: 0
+    validExtensions: [ '.xz' ]
+  - mimetype: 'application/x-yaml'
+    minimumFileSize: 0
+    validExtensions: [ '.yaml' ]
+  - mimetype: 'application/yang'
+    minimumFileSize: 0
+    validExtensions: [ '.yang' ]
+  - mimetype: 'application/yin+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.yin' ]
+  - mimetype: 'application/x-compress'
+    minimumFileSize: 0
+    validExtensions: [ '.z', '.Z' ]
+  - mimetype: 'application/x-zmachine'
+    minimumFileSize: 0
+    validExtensions: [ '.z1', '.z2', '.z3', '.z4', '.z5', '.z6', '.z7', '.z8' ]
+  - mimetype: 'application/vnd.zzazz.deck+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.zaz' ]
+  - mimetype: 'application/zip'
+    minimumFileSize: 0
+    validExtensions: [ '.zip' ]
+  - mimetype: 'application/vnd.zul'
+    minimumFileSize: 0
+    validExtensions: [ '.zir', '.zirz' ]
+  - mimetype: 'application/vnd.handheld-entertainment+xml'
+    minimumFileSize: 0
+    validExtensions: [ '.zmm' ]
